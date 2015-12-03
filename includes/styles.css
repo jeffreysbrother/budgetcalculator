@@ -78,6 +78,7 @@ div.column2 {
 .column2 h2 {
   padding-top: 0;
   margin-top: 0;
+  color: #333;
 }
 
 .column3, .column4 {
@@ -177,6 +178,8 @@ input {
   line-height: 2;
   position: relative;
   top: 15px;
+  font-weight: bold;
+  color: #777;
 }
 
 .left-input {
@@ -187,4 +190,5 @@ input:focus {
     outline: none !important;
     border:2px solid #a2ca07;
     border-radius: 6px;
+    color: #333;
 }
