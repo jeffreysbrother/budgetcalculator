@@ -30,6 +30,11 @@ div.progress div:last-of-type {
   margin-right: 0;
 }
 
+div.one p {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .qbcalc {
   background: #fff;
   border: 2px solid #ddd;
