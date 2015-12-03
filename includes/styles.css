@@ -30,6 +30,7 @@ div.column1 {
   width: 25%;
   float: left;
   border: 2px solid red;
+  margin: 0;
 }
 
 div.column2 {
@@ -37,4 +38,5 @@ div.column2 {
   width: 75%;
   clear: right;
   border: 2px solid red;
+  margin: 0;
 }
