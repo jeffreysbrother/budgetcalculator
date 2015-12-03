@@ -40,15 +40,6 @@ div.green {
   border: 3px solid #a2ca07;
 }
 
-p.green {
-  color: #fff;
-}
-
-
-div.progress div:last-of-type {
-  margin-right: 0;
-}
-
 div.one p {
   text-align: center;
   vertical-align: middle;
@@ -56,6 +47,15 @@ div.one p {
   top: -12px;
   font-weight: bold;
   color: #666;
+}
+
+p.green {
+  color: #fff;
+}
+
+
+div.progress div:last-of-type {
+  margin-right: 0;
 }
 
 .qbcalc {
