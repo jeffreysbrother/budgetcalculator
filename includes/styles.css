@@ -88,7 +88,7 @@ div.column1 {
 
 div.column2 {
   display: inline-block;
-  width: 72%;
+  width: 67%;
   clear: right;
   /*border: 2px solid red;*/
 }
@@ -106,7 +106,7 @@ div.column2 {
 }
 
 .column2 {
-  margin-left: 60px;
+  margin-left: 90px;
 }
 
 .column3 {
@@ -179,17 +179,23 @@ div.positive-income p.value {
   width: 168px;
 }
 
+table {
+  position: relative;
+  left: 6px;
+}
+
 div.column1 tr.underline {
   border-bottom: 1px solid #ddd;
 }
 
 div.column1 td, div.column1 th {
   color: #6c6f70;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1;
   text-align: left;
   padding: 5px 0;
 }
+
 div.column1 th {
   color: #333;
 }
@@ -223,7 +229,7 @@ input {
   padding: 6px;
   border-radius: 6px;
   border: 2px solid #ccc;
-  width: 320px;
+  width: 296px;
   line-height: 2;
   position: relative;
   top: 15px;
