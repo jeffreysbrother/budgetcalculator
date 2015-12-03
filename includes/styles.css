@@ -125,6 +125,6 @@ button.next {
   border: none;
 }
 
-div.column1 th strong {
-  border-bottom: 1px solid gray;
+div.column1 tr.underline {
+  border-bottom: 1px solid #ddd;
 }
