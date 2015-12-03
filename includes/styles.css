@@ -64,6 +64,8 @@ div.column1 {
   width: 22%;
   float: left;
   /*border: 2px solid red;*/
+  position: relative;
+  top: 7px;
 }
 
 div.column2 {
@@ -150,7 +152,7 @@ div.positive-income p.value {
   padding-bottom: 9px;
   color: white;
   position: relative;
-  top: 275px;
+  top: 281px;
 /*  padding-left: 48px;
   padding-right: 48px;*/
   font-weight: bold;
@@ -174,6 +176,8 @@ input {
   border: 2px solid #ccc;
   width: 290px;
   line-height: 2;
+  position: relative;
+  top: 15px;
 }
 
 input:focus {
