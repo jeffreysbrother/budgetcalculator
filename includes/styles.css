@@ -46,17 +46,18 @@ div.column2 {
 
 .column3, .column4 {
   height: 50px;
-  border: 2px solid #00CC66;
+  border: 2px solid #a2ca07;
   border-radius: 4px;
   display: inline-block;
 }
 
 .column3 {
-  width: 45%;
+  width: 35%;
   float: left;
+  padding-right: 20px;
 }
 
 .column4 {
-  width: 45%;
+  width: 35%;
   clear: right;
 }
