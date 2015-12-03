@@ -4,7 +4,7 @@ input {
 }
 
 body {
-  background: #fff;
+  background: #333;
   margin: 0;
   padding: 0;
 }
@@ -173,6 +173,7 @@ div.column1 tr.underline {
 
 div.column1 td, div.column1 th {
   padding: 2px;
+  padding-right: 11px;
 }
 
 /*styles for input fields*/
