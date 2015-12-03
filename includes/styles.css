@@ -28,9 +28,11 @@ body {
 div.column1 {
   display: inline;
   width: 22%;
+  float: left;
 }
 
 div.column2 {
   display: inline;
   width: 72%;
+  clear: right;
 }
