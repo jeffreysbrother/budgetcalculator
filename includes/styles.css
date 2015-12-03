@@ -118,5 +118,8 @@ button.next {
   padding-bottom: 11px;
   color: white;
   position: relative;
-  top: 300px;
+  top: 345px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
 }
