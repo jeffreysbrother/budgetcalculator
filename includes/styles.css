@@ -51,14 +51,14 @@ div.column2 {
 }
 
 .column2 {
-  margin-left: 55px;
+  margin-left: 65px;
 }
 
 .column3 {
   border: 2px solid #a2ca07;
   width: 35%;
   float: left;
-  margin-right: 30px;
+  margin-right: 45px;
 }
 
 .column4 {
@@ -86,5 +86,5 @@ div.column2 {
 .column3 table, .column4 table {
   text-align: center;
   vertical-align: middle;
-  line-height: 50px;      
+  line-height: 44px;      
 }
