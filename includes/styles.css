@@ -29,10 +29,12 @@ div.column1 {
   display: inline;
   width: 22%;
   float: left;
+  border: 2px solid red;
 }
 
 div.column2 {
   display: inline;
   width: 72%;
   clear: right;
+  border: 2px solid red;
 }
