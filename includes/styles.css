@@ -27,14 +27,14 @@ body {
 
 div.column1 {
   display: inline-block;
-  width: 22%;
+  width: 25%;
   float: left;
   border: 2px solid red;
 }
 
 div.column2 {
   display: inline-block;
-  width: 72%;
+  width: 75%;
   clear: right;
   border: 2px solid red;
 }
