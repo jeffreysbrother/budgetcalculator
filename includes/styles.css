@@ -9,6 +9,12 @@ body {
   padding: 0;
 }
 
+/*progress styles*/
+.progress {
+  height: 100px;
+  border: 2px solid red;
+}
+
 .qbcalc {
   background: #fff;
   border: 2px solid #ddd;
