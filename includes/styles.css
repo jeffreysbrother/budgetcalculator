@@ -113,14 +113,15 @@ div.positive-income p.value {
 
 button.next {
   background-color: #a2ca07;
-  border-radius: 6px;
+  border-radius: 3px;
   padding-top: 11px;
   padding-bottom: 11px;
   color: white;
   position: relative;
-  top: 351px;
+  top: 324px;
   padding-left: 40px;
   padding-right: 40px;
   font-weight: bold;
-  float: left;
+  /*float: left;*/
+  border: none;
 }
