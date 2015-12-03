@@ -16,7 +16,7 @@ body {
   position: relative;
   width: 1024px;
   height: 626px;
-  padding: 25px;
+  padding: 30px;
 }
 
 .qbcalc h1 {
@@ -24,6 +24,7 @@ body {
   font-size: 40px; /* Approximation due to font substitution */
   font-weight: 300;
   line-height: 1; /* Approximation due to font substitution */
+  margin-top: 0;
 }
 
 div.column1 {
