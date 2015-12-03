@@ -26,7 +26,7 @@ div.one {
   top: 13px;
 }
 
-div.one:last-of-type {
+div.progress div:last-of-type {
   margin-right: none;
 }
 
