@@ -128,3 +128,6 @@ button.next {
 div.column1 tr.underline {
   border-bottom: 1px solid #ddd;
 }
+div.column1 td, div.column1 th {
+  padding: 2px;
+}
