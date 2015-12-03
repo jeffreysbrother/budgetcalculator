@@ -35,6 +35,12 @@ div.line, div.line2 {
   margin-right: -5px;
 }
 
+.green {
+  background-color: #a2ca07;
+  border: 3px solid #a2ca07;
+  color: #fff;
+}
+
 
 div.progress div:last-of-type {
   margin-right: 0;
