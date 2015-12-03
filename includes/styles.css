@@ -124,3 +124,7 @@ button.next {
   font-weight: bold;
   border: none;
 }
+
+div.column1 th strong {
+  border-bottom: 1px solid gray;
+}
