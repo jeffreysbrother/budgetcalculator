@@ -24,3 +24,13 @@ body {
   font-weight: 300;
   line-height: 1; /* Approximation due to font substitution */
 }
+
+div.column1 {
+  display: inline;
+  width: 25%;
+}
+
+div.column2 {
+  display: inline;
+  width: 75%;
+}
