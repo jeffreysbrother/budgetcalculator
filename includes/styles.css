@@ -26,6 +26,10 @@ div.one {
   top: 13px;
 }
 
+div.one:last-of-type {
+  margin-right: none;
+}
+
 .qbcalc {
   background: #fff;
   border: 2px solid #ddd;
