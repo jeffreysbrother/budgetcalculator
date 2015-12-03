@@ -51,6 +51,7 @@ div.column2 {
 }
 
 .column3 {
+  margin-left: 30px;
   border: 2px solid #a2ca07;
   width: 35%;
   float: left;
@@ -58,7 +59,6 @@ div.column2 {
 }
 
 .column4 {
-  padding-left: 30px;
   border: 2px solid #ddd;
   width: 35%;
   clear: right;
