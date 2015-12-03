@@ -68,5 +68,10 @@ div.column2 {
 }
 
 .column4 td {
-  color: #ddd;
+  color: gray;
+}
+
+.image-container {
+  border: 2px solid gray;
+  border-radius: 4px;
 }
