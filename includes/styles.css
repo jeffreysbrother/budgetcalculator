@@ -99,17 +99,17 @@ div.column2 {
   color: #333;
 }
 
-.column3, .column4 {
+/*.column3, .column4 {
   height: 50px;
   border-radius: 6px;
   display: inline-block;
-}
+}*/
 
 .column2 {
   margin-left: 90px;
 }
 
-.column3 {
+/*.column3 {
   border: 2px solid #a2ca07;
   width: 35%;
   float: left;
@@ -120,11 +120,11 @@ div.column2 {
   border: 2px solid #ddd;
   width: 35%;
   clear: right;
-}
+}*/
 
-.column4 td {
+/*.column4 td {
   color: gray;
-}
+}*/
 
 .image-container {
   border: 2px solid #ddd;
