@@ -4,7 +4,7 @@ input {
 }
 
 body {
-  background: #333;
+  background: #fff;
   margin: 0;
   padding: 0;
 }
@@ -172,10 +172,6 @@ div.column1 tr.underline {
 }
 
 div.column1 td, div.column1 th {
-<<<<<<< HEAD
-  padding: 2px;
-  padding-right: 11px;
-=======
   color: #6c6f70;
   font-size: 14px;
   line-height: 1;
@@ -208,7 +204,6 @@ div.column1 td.total, div.column1 th.total {
 }
 .savings {
   background-color:  #ea8800;
->>>>>>> 3290f560ef264cd26e96198d8e357767b03e46cc
 }
 
 /*styles for input fields*/
