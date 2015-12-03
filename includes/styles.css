@@ -95,15 +95,14 @@ div.column2 {
 div.positive-income {
   background-color: #a2ca07;
   border-radius: 6px;
-
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 div.positive-income p {
   color: white;
   text-align: center;
   margin: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 div.positive-income p.value {
