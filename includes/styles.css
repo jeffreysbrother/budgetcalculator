@@ -144,7 +144,7 @@ input {
   line-height: 2;
 }
 
-.input:focus {
+input:focus {
     outline: none !important;
     border:2px solid #a2ca07;
     border-radius: 6px;
