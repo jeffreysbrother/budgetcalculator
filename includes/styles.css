@@ -172,7 +172,38 @@ div.column1 tr.underline {
 }
 
 div.column1 td, div.column1 th {
-  padding: 2px;
+  color: #6c6f70;
+  font-size: 14px;
+  line-height: 1;
+  text-align: left;
+  padding: 5px 0;
+}
+div.column1 th {
+  color: #333;
+}
+div.column1 td.total, div.column1 th.total {
+  text-align: right;
+}
+.square {
+  float: left;
+  margin-right: 5px;
+  width: 13px;
+  height: 13px;
+}
+.housing {
+  background-color:  #f9c500;
+}
+.transportation {
+  background-color:  #00a8bc;
+}
+.educational {
+  background-color:  #9de031;
+}
+.personal {
+  background-color:  #ff00b9;
+}
+.savings {
+  background-color:  #ea8800;
 }
 
 /*styles for input fields*/
