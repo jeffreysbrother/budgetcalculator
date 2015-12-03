@@ -26,14 +26,14 @@ body {
 }
 
 div.column1 {
-  display: inline;
+  display: inline-block;
   width: 22%;
   float: left;
   border: 2px solid red;
 }
 
 div.column2 {
-  display: inline;
+  display: inline-block;
   width: 72%;
   clear: right;
   border: 2px solid red;
