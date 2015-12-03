@@ -21,13 +21,13 @@ div.one {
   height: 30px;
   width: 30px;
   display: inline-block;
-  margin-right: 130px;
+  margin-right: 156px;
   position: relative;
   top: 13px;
 }
 
 div.progress div:last-of-type {
-  margin-right: none;
+  margin-right: 0;
 }
 
 .qbcalc {
