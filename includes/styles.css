@@ -38,6 +38,9 @@ div.line, div.line2 {
 .green {
   background-color: #a2ca07;
   border: 3px solid #a2ca07;
+}
+
+div.green p {
   color: #fff;
 }
 
