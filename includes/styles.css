@@ -218,14 +218,18 @@ input[type="text"] {
 
 p.salary, p.other {
   position: absolute;
+  z-index: 100;
+  font-weight: bold;
 }
 
 p.salary {
-
+  top:  249px;
+  left: 358px;
 }
 
 p.other {
-  
+  top: 249px;
+  left: 721px;
 }
 
 .left-input {
