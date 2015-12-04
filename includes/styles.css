@@ -43,6 +43,10 @@ div.green {
   /*border: 3px solid #a2ca07;*/    /******/
 }
 
+.gr2 {
+  border: 3px solid #a2ca07;
+}
+
 div.one p {
   text-align: center;
   vertical-align: middle;
