@@ -106,7 +106,9 @@
 		<script type="text/javascript" src="includes/js/jquery.calculation.min.js"></script>
 
 		<script type="text/javascript">
-			$("input[@name^=';sum']").sum("keyup", "#totalSum");
+			$( document ).ready(function() {
+				$("input[@name^=';sum']").sum("keyup", "#totalSum");
+			});
 		</script>
 	</body>
 </html>
