@@ -11,7 +11,8 @@ body {
 
 /*progress styles*/
 .progress {
-  height: 87px;
+  height: 71px;
+  padding-top: 10px;
   /*border: 2px solid red;*/
 }
 
