@@ -228,13 +228,13 @@ p.salary, p.other {
 }
 
 p.salary {
-  top:  249px;
-  left: 358px;
+  margin-left: 12px;
+  margin-top: 28px;
 }
 
 p.other {
-  top: 249px;
-  left: 721px;
+  margin-left: 378px;
+  margin-top: 28px
 }
 
 .left-input {
