@@ -216,6 +216,18 @@ input[type="text"] {
   text-align: right;
 }
 
+p.salary, p.other {
+  position: absolute;
+}
+
+p.salary {
+
+}
+
+p.other {
+  
+}
+
 .left-input {
   margin-right: 50px;
 }
