@@ -210,6 +210,9 @@ input {
   top: 15px;
   font-weight: bold;
   color: #777;
+}
+
+input[type="text"] {
   text-align: right;
 }
 
