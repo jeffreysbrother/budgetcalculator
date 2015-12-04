@@ -105,7 +105,7 @@ div.column2 {
 }
 
 .column2 {
-  margin-left: 80px;  /*originally 90px before seeing mobile safari issue*/
+  margin-left: 75px;  /*originally 90px before seeing mobile safari issue*/
 }
 
 
@@ -209,7 +209,7 @@ div.column1 td.total, div.column1 th.total {
 input {
   border-radius: 6px;
   border: 2px solid #ccc;
-  width: 300px;
+  width: 295px;   /*was 300px before Alex found Safari mobile issue*/
   height: 47px;
   position: relative;
   font-weight: bold;
