@@ -23,7 +23,8 @@ div.one {
   display: inline-block;
   /*margin-right: 156px;*/
   position: relative;
-  top: 13px;
+  /*top: 13px;*/                     /******/
+  vertical-align: middle;
 }
 
 div.line, div.line2 {
