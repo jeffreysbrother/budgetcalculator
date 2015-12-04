@@ -206,15 +206,14 @@ div.column1 td.total, div.column1 th.total {
 
 /*styles for input fields*/
 input {
-  padding: 6px;
   border-radius: 6px;
   border: 2px solid #ccc;
   width: 296px;
-  line-height: 2;
+  height: 47px;
   position: relative;
-  top: 15px;
   font-weight: bold;
   color: #777;
+  margin-top: 13px;
 }
 
 input[type="text"] {
@@ -233,7 +232,7 @@ p.salary {
 }
 
 p.other {
-  margin-left: 378px;
+  margin-left: 370px;
   margin-top: 28px
 }
 
