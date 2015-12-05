@@ -254,6 +254,6 @@ input:focus {
 
 @media screen and (max-width: 700px) {       /*to fix Safari issue: iPhone*/
   input {
-    width: 245px;
+    width: 252px;
   }
 }
