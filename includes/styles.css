@@ -243,6 +243,7 @@ input {
 
 input[type="text"] {
   text-align: right;
+  margin-bottom: 9px;
 }
 
 p.salary,
@@ -268,6 +269,36 @@ p.salary, p.mort {
 p.other, p.HOA {
   margin-left: 378px;
   margin-top: 28px;
+}
+
+p.phone {
+  margin-left: 378px;
+  margin-top: 254px;
+}
+
+p.TV {
+  margin-left: 12px;
+  margin-top: 254px;
+}
+
+p.utilities {
+  margin-left: 378px;
+  margin-top: 179px;
+}
+
+p.repairs {
+  margin-left: 12px;
+  margin-top: 179px;
+}
+
+p.ins {
+  margin-left: 378px;
+  margin-top: 103px;
+}
+
+p.rent {
+  margin-left: 12px;
+  margin-top: 103px;
 }
 
 .left-input {
