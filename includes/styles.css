@@ -159,7 +159,23 @@ div.positive-income p.value {
   border: none;
   width: 168px;
   text-decoration: none;
-  padding: 14px 44px;
+  padding: 14px 60px;
+}
+
+.back {
+  background-color: #6B6F70;
+  border-radius: 3px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: white;
+  position: relative;
+  top: 270px;
+  font-weight: bold;
+  border: none;
+  width: 168px;
+  text-decoration: none;
+  padding: 14px 60px;
+
 }
 
 table {
