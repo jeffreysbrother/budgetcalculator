@@ -58,11 +58,11 @@
 			<table>
 			  <tr class="underline">
 			    <th><strong>Monthly Income</strong></th>
-			    <th class="total">$320,000</th>
+			    <th class="total" value="" name="totalSum" id="totalSum"></th>
 			  </tr>
 			  <tr>
 			    <td><div class="square housing"></div>Housing</td>
-			    <td class="total" value="" name="totalSum" id="totalSum"></td>
+			    <td class="total" value="" name="totalSum" id="totalSum2"></td>
 			  </tr>
 			  <tr>
 			    <td><div class="square transportation"></div>Transportation</td>
@@ -124,55 +124,55 @@
 			  <!-- <h2>step 1</h2>
 			  <a href="#step2" class="next">NEXT</a> -->
 				<h2>Monthly Income</h2>
-
 				<div class="form-wrap">
 					<p class="salary">Salary/Wages</p>
 					<p class="other">Other Income</p>
 					<form action="action_page.php">
-					<input class="left-input" type="text" name="sum" />
-					<input type="text" name="sum" />
-					<!-- <input class="next" type="submit" value="NEXT" /> -->
-
+						<input class="left-input" type="text" name="sum" />
+						<input type="text" name="sum" />
 					</form>
 				</div>
 				<a href="#step2" class="next">NEXT</a>
 			</div>
+
 			<div class="panel" id="step2">
 				<h2>Housing Expenses</h2>
-
 				<div class="form-wrap">
 					<p class="salary">Mortgage Payment</p>
 					<p class="other">HOA Fees</p>
 					<form action="action_page.php">
-					<input class="left-input" type="text" name="sum" />
-					<input type="text" name="sum" />
-					<!-- <input class="next" type="submit" value="NEXT" /> -->
-
+						<input class="left-input" type="text" name="sum2" />
+						<input type="text" name="sum2" />
 					</form>
 				</div>
 			  <a href="#step1" class="back">BACK</a>
 			  <a href="#step3" class="next">NEXT</a>
 			</div>
+
 			<div class="panel" id="step3">
 			  <h2>step 3</h2>
 			  <a href="#step2" class="back">BACK</a>
 			  <a href="#step4" class="next">NEXT</a>
 			</div>
+
 			<div class="panel" id="step4">
 			  <h2>step 4</h2>
 			  <a href="#step3" class="back">BACK</a>
 			  <a href="#step5" class="next">NEXT</a>
 			</div>
+
 			<div class="panel" id="step5">
 			  <h2>step 5</h2>
 			  <a href="#step4" class="back">BACK</a>
 			  <a href="#step6" class="next">NEXT</a>
 			</div>
+
 			<div class="panel" id="step6">
 			  <h2>step 6</h2>
 			  <a href="#step5" class="back">BACK</a>
 			  <a href="#step7" class="next">NEXT</a>
 			</div>
+
 			<div class="panel" id="step7">
 			  <h2>step 7</h2>
 			  <h4>you win!</h4>
@@ -196,6 +196,10 @@
 		<script type="text/javascript">
 			$( document ).ready(function() {
 				$("input[@name^='sum']").sum("keyup", "#totalSum");
+			});
+
+			$( document ).ready(function() {
+				$("input[@name^='sum2']").sum("keyup", "#totalSum2");
 			});
 		</script>
 
