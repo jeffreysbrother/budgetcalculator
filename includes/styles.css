@@ -115,22 +115,19 @@ div.column2 {
 }
 
 .last-panel-right {
-  width: 50%;
+  width: 46%;
   height: 100px;
   background-color: pink;
   display: inline-block;
 }
 
 div.last-panel-left h3 {
-  color: #333;
+  color: #666;
 }
 
 span.reddish {
   color: #A52A47;
 }
-
-
-
 
 .image-container {
   border: 2px solid #ddd;
@@ -220,6 +217,7 @@ div.positive-income p.value {
   text-decoration: none;
   padding: 14px 60px;
   margin-right: 20px;
+  margin-left: 109px;
 }
 
 table {
