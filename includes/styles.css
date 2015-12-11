@@ -172,7 +172,7 @@ div.positive-income p.value {
 }
 
 /*this rule fixes the button height on the last page*/
-.formwrap.fix {
+.form-wrap.fix {
   height: 410px;
 }
 
