@@ -228,7 +228,18 @@
 			</div>
 
 			<div class="panel" id="step6">
-			  <h2>step 6</h2>
+				<h2>Monthly Savings</h2>
+				<div class="form-wrap">
+					<p class="emergency">Emergency Fund</p>
+					<p class="invest">Investments</p>
+					<p class="retire">Retirement</p>
+					<form>
+						<input class="left-input" type="text" name="sum6" />
+						<input type="text" name="sum6" />
+						<br />
+						<input class="left-input" type="text" name="sum6" />
+					</form>
+				</div>
 			  <a href="#step5" class="back">BACK</a>
 			  <a href="#step7" class="next">NEXT</a>
 			</div>
@@ -256,23 +267,13 @@
 		<script type="text/javascript">
 			$( document ).ready(function() {
 				$("input[name='sum']").sum("keyup", "#totalSum");
-			});
-
-			$( document ).ready(function() {
 				$("input[name='sum2']").sum("keyup", "#totalSum2");
-			});
-
-			$( document ).ready(function() {
 				$("input[name='sum3']").sum("keyup", "#totalSum3");
-			});
-
-			$( document ).ready(function() {
 				$("input[name='sum4']").sum("keyup", "#totalSum4");
+				$("input[name='sum5']").sum("keyup", "#totalSum5");
+				$("input[name='sum6']").sum("keyup", "#totalSum6");
 			});
 
-			$( document ).ready(function() {
-				$("input[name='sum5']").sum("keyup", "#totalSum5");
-			});
 		</script>
 
 		<!-- progress JS -->

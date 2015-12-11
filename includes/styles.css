@@ -269,18 +269,21 @@ p.laundry,
 p.ent,
 p.med,
 p.pet,
-p.other-exp {
+p.other-exp,
+p.emergency,
+p.invest,
+p.retire {
   position: absolute;
   z-index: 100;
   font-weight: bold;
 }
 
-p.salary, p.mort, p.car, p.school, p.groc {
+p.salary, p.mort, p.car, p.school, p.groc, p.emergency {
   margin-left: 12px;
   margin-top: 28px;
 }
 
-p.other, p.HOA, p.car-ins, p.loans, p.cloth {
+p.other, p.HOA, p.car-ins, p.loans, p.cloth, p.invest {
   margin-left: 378px;
   margin-top: 28px;
 }
@@ -310,7 +313,7 @@ p.ins, p.parking, p.ent {
   margin-top: 103px;
 }
 
-p.rent, p.gas, p.tuition, p.laundry {
+p.rent, p.gas, p.tuition, p.laundry, p.retire {
   margin-left: 12px;
   margin-top: 103px;
 }
