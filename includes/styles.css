@@ -259,18 +259,21 @@ p.phone,
 p.car,
 p.car-ins,
 p.gas,
-p.parking {
+p.parking,
+p.school,
+p.loans,
+p.tuition {
   position: absolute;
   z-index: 100;
   font-weight: bold;
 }
 
-p.salary, p.mort, p.car {
+p.salary, p.mort, p.car, p.school {
   margin-left: 12px;
   margin-top: 28px;
 }
 
-p.other, p.HOA, p.car-ins {
+p.other, p.HOA, p.car-ins, p.loans {
   margin-left: 378px;
   margin-top: 28px;
 }
@@ -300,7 +303,7 @@ p.ins, p.parking {
   margin-top: 103px;
 }
 
-p.rent, p.gas {
+p.rent, p.gas, p.tuition {
   margin-left: 12px;
   margin-top: 103px;
 }
