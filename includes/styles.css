@@ -108,6 +108,17 @@ div.column2 {
   margin-left: 90px;  /*reduced to 68px temporarily*/
 }
 
+.last-panel-left {
+  width: 40%;
+  height: 100px;
+  display: inline-block;
+}
+
+.last-panel-right {
+  background-color: pink;
+  display: inline-block;
+}
+
 
 .image-container {
   border: 2px solid #ddd;
