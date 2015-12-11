@@ -245,7 +245,16 @@ input[type="text"] {
   text-align: right;
 }
 
-p.salary, p.other {
+p.salary,
+p.other,
+p.mort,
+p.HOA,
+p.rent,
+p.ins,
+p.repairs,
+p.utilities,
+p.TV,
+p.phone {
   position: absolute;
   z-index: 100;
   font-weight: bold;
