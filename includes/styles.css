@@ -171,6 +171,11 @@ div.positive-income p.value {
   height: 357px;
 }
 
+/*this rule fixes the button height on the last page*/
+.formwrap.fix {
+  height: 410px;
+}
+
 .next {
   background-color: #a2ca07;
   border-radius: 3px;
