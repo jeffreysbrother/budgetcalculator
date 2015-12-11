@@ -262,18 +262,25 @@ p.gas,
 p.parking,
 p.school,
 p.loans,
-p.tuition {
+p.tuition,
+p.groc,
+p.cloth,
+p.laundry,
+p.ent,
+p.med,
+p.pet,
+p.other-exp {
   position: absolute;
   z-index: 100;
   font-weight: bold;
 }
 
-p.salary, p.mort, p.car, p.school {
+p.salary, p.mort, p.car, p.school, p.groc {
   margin-left: 12px;
   margin-top: 28px;
 }
 
-p.other, p.HOA, p.car-ins, p.loans {
+p.other, p.HOA, p.car-ins, p.loans, p.cloth {
   margin-left: 378px;
   margin-top: 28px;
 }
@@ -283,27 +290,27 @@ p.phone {
   margin-top: 254px;
 }
 
-p.TV {
+p.TV, p.other-exp {
   margin-left: 12px;
   margin-top: 254px;
 }
 
-p.utilities {
+p.utilities, p.pet {
   margin-left: 378px;
   margin-top: 179px;
 }
 
-p.repairs {
+p.repairs, p.med {
   margin-left: 12px;
   margin-top: 179px;
 }
 
-p.ins, p.parking {
+p.ins, p.parking, p.ent {
   margin-left: 378px;
   margin-top: 103px;
 }
 
-p.rent, p.gas, p.tuition {
+p.rent, p.gas, p.tuition, p.laundry {
   margin-left: 12px;
   margin-top: 103px;
 }
