@@ -174,7 +174,7 @@ div.positive-income p.value {
   padding-bottom: 9px;
   color: white;
   position: relative;
-  top: 270px;
+  /*top: 270px;*/
   font-weight: bold;
   border: none;
   width: 168px;
