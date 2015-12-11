@@ -175,7 +175,7 @@ div.positive-income p.value {
   width: 168px;
   text-decoration: none;
   padding: 14px 60px;
-
+  margin-right: 20px;
 }
 
 table {
@@ -325,13 +325,13 @@ input:focus {
   transition: all linear 0.5s;
 }
 .prog .completed div {
-  background: #090;
+  background: #a2ca07;
   height: 4px;
   top: 8px;
 }
 .prog .active a,
 .prog .completed a {
-  background: #090;
+  background: #a2ca07;
   color: #fff;
 }
 /* steps panels */
