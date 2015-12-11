@@ -251,12 +251,12 @@ p.salary, p.other {
   font-weight: bold;
 }
 
-p.salary {
+p.salary, p.mort {
   margin-left: 12px;
   margin-top: 28px;
 }
 
-p.other {
+p.other, p.HOA {
   margin-left: 378px;
   margin-top: 28px;
 }
