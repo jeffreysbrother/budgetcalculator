@@ -109,12 +109,13 @@ div.column2 {
 }
 
 .last-panel-left {
-  width: 40%;
-  height: 100px;
+  width: 45%;
   display: inline-block;
 }
 
 .last-panel-right {
+  width: 40%;
+  height: 100px;
   background-color: pink;
   display: inline-block;
 }
