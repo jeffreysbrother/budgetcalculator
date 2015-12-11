@@ -194,6 +194,22 @@ div.positive-income p.value {
   margin-right: 20px;
 }
 
+.compare {
+  background-color: #0377C6;
+  border-radius: 3px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: white;
+  position: relative;
+  /*top: 270px;*/
+  font-weight: bold;
+  border: none;
+  width: 168px;
+  text-decoration: none;
+  padding: 14px 60px;
+  margin-right: 20px;
+}
+
 table {
   position: relative;
   left: 6px;
