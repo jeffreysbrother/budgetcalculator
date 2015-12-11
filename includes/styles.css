@@ -255,18 +255,22 @@ p.ins,
 p.repairs,
 p.utilities,
 p.TV,
-p.phone {
+p.phone,
+p.car,
+p.car-ins,
+p.gas,
+p.parking {
   position: absolute;
   z-index: 100;
   font-weight: bold;
 }
 
-p.salary, p.mort {
+p.salary, p.mort, p.car {
   margin-left: 12px;
   margin-top: 28px;
 }
 
-p.other, p.HOA {
+p.other, p.HOA, p.car-ins {
   margin-left: 378px;
   margin-top: 28px;
 }
@@ -291,12 +295,12 @@ p.repairs {
   margin-top: 179px;
 }
 
-p.ins {
+p.ins, p.parking {
   margin-left: 378px;
   margin-top: 103px;
 }
 
-p.rent {
+p.rent, p.gas {
   margin-left: 12px;
   margin-top: 103px;
 }

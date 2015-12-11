@@ -165,7 +165,20 @@
 			</div>
 
 			<div class="panel" id="step3">
-			  <h2>step 3</h2>
+				<h2>Transportation Expenses</h2>
+				<div class="form-wrap">
+					<p class="car">Car Payment</p>
+					<p class="car-ins">Car Insurance</p>
+					<p class="gas">Gasoline</p>
+					<p class="parking">Parking Tolls</p>
+					<form>
+						<input class="left-input" type="text" name="sum3" />
+						<input type="text" name="sum3" />
+						<br />
+						<input class="left-input" type="text" name="sum3" />
+						<input type="text" name="sum3" />
+					</form>
+				</div>
 			  <a href="#step2" class="back">BACK</a>
 			  <a href="#step4" class="next">NEXT</a>
 			</div>
@@ -215,6 +228,10 @@
 
 			$( document ).ready(function() {
 				$("input[name='sum2']").sum("keyup", "#totalSum2");
+			});
+
+			$( document ).ready(function() {
+				$("input[name='sum3']").sum("keyup", "#totalSum3");
 			});
 		</script>
 
