@@ -147,6 +147,10 @@ div.positive-income p.value {
   font-size: 2em;
 }
 
+.form-wrap {
+  height: 357px;
+}
+
 .next {
   background-color: #a2ca07;
   border-radius: 3px;
