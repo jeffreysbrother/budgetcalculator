@@ -154,7 +154,7 @@ div.positive-income p.value {
   padding-bottom: 9px;
   color: white;
   position: relative;
-  top: 270px;
+  /*top: 270px;*/
   font-weight: bold;
   border: none;
   width: 168px;
@@ -298,7 +298,7 @@ input:focus {
 }
 .prog a {
   background: #fff;
-  border: 2px solid #333;
+  border: 2px solid #ddd;
   border-radius: 10px;
   color: #333;
   float: left;
@@ -316,7 +316,7 @@ input:focus {
   left: 0;
 }
 .prog div {
-  background: #777;
+  background: #ddd;
   float: left;
   width: 100%;
   height: 2px;
