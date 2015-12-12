@@ -58,27 +58,27 @@
 			<table>
 			  <tr class="underline">
 			    <th><strong>Monthly Income</strong></th>
-			    <th class="total" value="" id="totalSum"></th>
+			    <th class="total final" value="" id="totalSum"></th>
 			  </tr>
 			  <tr>
 			    <td><div class="square housing"></div>Housing</td>
-			    <td class="total" value="" id="totalSum2"></td>
+			    <td class="total final" value="" id="totalSum2"></td>
 			  </tr>
 			  <tr>
 			    <td><div class="square transportation"></div>Transportation</td>
-			    <td class="total" value="" id="totalSum3"></td>
+			    <td class="total final" value="" id="totalSum3"></td>
 			  </tr>
 			  <tr>
 			    <td><div class="square educational"></div>Educational</td>
-			    <td class="total" value="" id="totalSum4"></td>
+			    <td class="total final" value="" id="totalSum4"></td>
 			  </tr>
 			  <tr>
 			    <td><div class="square personal"></div>Food and Personal</td>
-			    <td class="total" value="" id="totalSum5"></td>
+			    <td class="total final" value="" id="totalSum5"></td>
 			  </tr>
 			  <tr class="underline">
 			    <td><div class="square savings"></div>Monthly Savings</td>
-			    <td class="total" value="" id="totalSum6"></td>
+			    <td class="total final" value="" id="totalSum6"></td>
 			  </tr>
 			  <tr>
 			    <th><strong>Monthly Expenses</strong></th>
@@ -282,7 +282,7 @@
 				$("input[name='sum4']").sum("keyup", "#totalSum4");
 				$("input[name='sum5']").sum("keyup", "#totalSum5");
 				$("input[name='sum6']").sum("keyup", "#totalSum6");
-				$("td[id*='total']").sum("keyup", "#expenses");
+				$(".final").sum("keyup", "#expenses");
 				// totals = $("td[name='sum7']").sum();
 
 				// var expenditures = $("input[name='sum7']").data();
