@@ -257,7 +257,7 @@
          * NOTE: The syntax above is valid for any of the aggregate functions
          *
          */
-        $.each(["sum", "avg", "min", "max", "minus"], function (i, method){
+        $.each(["sum", "avg", "min", "max", "subtract"], function (i, method){
                 $.fn[method] = function (bind, selector){
                         // if no arguments, then return the result of the aggregate function
                         if( arguments.length == 0 )
