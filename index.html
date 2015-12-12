@@ -95,7 +95,7 @@
 
 			<div class="positive-income">
 				<p>POSITIVE INCOME</p>
-				<p class="value">$311,000</p>
+				<p class="value" value="" id="totalSubtract"></p>
 			</div>
 
 		</div> <!-- closing column1 div -->
@@ -128,8 +128,8 @@
 					<p class="salary">Salary/Wages</p>
 					<p class="other">Other Income</p>
 					<form>
-						<input class="left-input" type="text" name="sum" />
-						<input type="text" name="sum" />
+						<input class="left-input" type="text" name="subtract" />
+						<input type="text" name="subtract" />
 					</form>
 				</div>
 				<a href="#step2" class="next">NEXT</a>
@@ -283,7 +283,7 @@
 				$("input[name='sum5']").sum("keyup", "#totalSum5");
 				$("input[name='sum6']").sum("keyup", "#totalSum6");
 				$("input[name='sum7']").sum("keyup", "#totalSum7");
-				// $("input[name='subtract']").sum("keyup", "#totalSubtract");
+				$("input[name='subtract']").subtract("keyup", "#totalSubtract");
 			});
 		</script>
 
