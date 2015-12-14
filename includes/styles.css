@@ -230,6 +230,15 @@ table {
   left: 6px;
 }
 
+div.column1 th,
+div.column1 td {
+  padding-right: 31px;
+}
+
+[id^=totalSum].total {
+  padding: 0;
+}
+
 div.column1 tr.underline {
   border-bottom: 1px solid #ddd;
 }
