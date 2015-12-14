@@ -277,7 +277,6 @@
 		<!-- calculation JS -->
 		<script type="text/javascript">
 			$( document ).ready(function() {
-				var baseIncome;
 				$("input[name='sum']").sum("keyup", "#totalSum");
 				$("input[name='sum2']").sum("keyup", "#totalSum2");
 				$("input[name='sum3']").sum("keyup", "#totalSum3");
@@ -289,12 +288,13 @@
 				// var positive-income = $("input[class='poop']").sum();
 
 				// $("input[name='subtract']").subtract("keyup", "#subtract");
-			baseIncome =	$("#totalSum").val();
-
-
-
 
 			});
+		</script>
+
+		<script type="text/javascript">
+			var baseIncome =	$("#totalSum").val();
+
 		</script>
 
 		<!-- progress JS -->
