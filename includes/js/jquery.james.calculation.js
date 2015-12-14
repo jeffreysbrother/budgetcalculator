@@ -322,8 +322,7 @@
                 },
                 // subtract an array (custom function added by James Cool)
                 subtract: function (a){
-                        var total = $("#totalSum").val();
-;
+                        var total = 0;
 
                         // loop through the value and total them
                         $.each(a, function (i, v){
