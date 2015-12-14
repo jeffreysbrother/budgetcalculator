@@ -113,7 +113,7 @@ div.column2 {
 }
 
 .last-panel-left {
-  width: 45%;
+  width: 42%;
   display: inline-block;
   margin-right: 26px;
   margin-top: 51px;
@@ -398,9 +398,9 @@ input:focus {
 
 .whats-new-hero {
   position: relative;
-  bottom: 231px;
-  right: 173px;
-  width: 140%;
+  bottom: 226px;
+  right: 126px;
+  width: 133%;
   z-index: 0;
 }
 
