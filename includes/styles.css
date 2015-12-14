@@ -230,6 +230,14 @@ table {
   left: 6px;
 }
 
+div.column1.th {
+  padding-right: 31px;
+}
+
+th[id^=totalSum].total {
+  padding: 0;
+}
+
 div.column1 tr.underline {
   border-bottom: 1px solid #ddd;
 }
