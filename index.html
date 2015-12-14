@@ -277,6 +277,9 @@
 		<!-- calculation JS -->
 		<script type="text/javascript">
 			$( document ).ready(function() {
+
+				$("input").prop('maxlength', 6);
+
 				$("input[name='sum']").sum("keyup", "#totalSum");
 				$("input[name='sum2']").sum("keyup", "#totalSum2");
 				$("input[name='sum3']").sum("keyup", "#totalSum3");
