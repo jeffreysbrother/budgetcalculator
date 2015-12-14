@@ -72,6 +72,7 @@ div.progress div:last-of-type {
   height: 626px;
   padding: 30px;
   border-radius: 6px;
+  z-index: -2;
 }
 
 .qbcalc h1 {
@@ -378,6 +379,14 @@ input:focus {
     border:2px solid #a2ca07;
     border-radius: 6px;
     color: #333;
+}
+
+.whats-new-hero {
+  position: relative;
+  bottom: 231px;
+  right: 173px;
+  width: 140%;
+  z-index: -1;
 }
 
 /*************************ALEX CSS*****************************/
