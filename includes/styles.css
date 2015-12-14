@@ -247,7 +247,7 @@ div.column1 td {
   padding-right: 31px;
 }
 
-[id^=totalSum].total {
+[id^=totalSum][id^=expenses].total {
   padding: 0;
 }
 
