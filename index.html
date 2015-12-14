@@ -278,20 +278,25 @@
 		<script type="text/javascript">
 			$( document ).ready(function() {
 
+				//add max length attribute to all inputs
 				$("input").attr('maxlength', 6);
 
+				//sum inputs and display resulting value in table with appropriate ID
 				$("input[name='sum']").sum("keyup", "#totalSum");
 				$("input[name='sum2']").sum("keyup", "#totalSum2");
 				$("input[name='sum3']").sum("keyup", "#totalSum3");
 				$("input[name='sum4']").sum("keyup", "#totalSum4");
 				$("input[name='sum5']").sum("keyup", "#totalSum5");
 				$("input[name='sum6']").sum("keyup", "#totalSum6");
-				$("input").not(".poop").sum("keyup", "#expenses");   //finally worked!!
+				//display the sum of all input fields except monthly income fields
+				//the "poop" class serves to exclude these fields.
+				$("input").not(".poop").sum("keyup", "#expenses");
 
 				// var baseIncome = $("#totalSum").val();
 				// var totalExpenses = $("#expenses").val();
 				// var positiveIncome = baseIncome - totalExpenses;
 
+				//display result of income minus expenses
 				$("input").not(".poop").subtract("keyup", "#subtract");
 
 			});
