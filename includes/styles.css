@@ -115,6 +115,7 @@ div.column2 {
   width: 45%;
   display: inline-block;
   margin-right: 26px;
+  margin-top: 51px;
 }
 
 .last-panel-right {
@@ -138,6 +139,8 @@ span.reddish {
   border: 2px solid #ddd;
   border-radius: 6px;
   margin-top: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .image-container img {
@@ -160,6 +163,7 @@ div.positive-income {
   padding-bottom: 11px;
   position: relative;
   top: -10px;
+  z-index: 3;
 }
 
 div.positive-income p {
@@ -233,6 +237,11 @@ div.positive-income p.value {
 table {
   position: relative;
   left: 6px;
+}
+
+div.column1 {
+  position: relative;
+  z-index: 3;
 }
 
 div.column1 tr.underline {
