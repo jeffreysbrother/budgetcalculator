@@ -244,12 +244,12 @@ div.column1 td, div.column1 th {
 
 /*[id^=totalSum].total {
   padding: 0;
-}
+}*/
 
 div.column1 th,
 div.column1 td {
   padding-right: 31px;
-}*/
+}
 
 div.column1 th {
   color: #333;
