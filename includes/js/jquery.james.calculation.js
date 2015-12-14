@@ -322,7 +322,7 @@
                 },
                 // subtract an array (custom function added by James Cool)
                 subtract: function (a){
-                        var total = document.getElementById('totalSum').innerHTML;
+                        var total = document.getElementById('totalSum').val();
 
                         // loop through the value and total them
                         $.each(a, function (i, v){
