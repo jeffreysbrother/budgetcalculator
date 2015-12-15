@@ -387,8 +387,16 @@
 								['data4', 30],
 								['data5', 30]
 						],
+						empty: {
+					    label: {
+					      text: "No Data"
+					    }
+					  },
 						labels: false,
 						type : 'donut',
+						donut: {
+							width: 20
+						},
 						onclick: function (d, i) { console.log("onclick", d, i); },
 						onmouseover: function (d, i) { console.log("onmouseover", d, i); },
 						onmouseout: function (d, i) { console.log("onmouseout", d, i); }
