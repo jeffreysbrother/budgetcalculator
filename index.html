@@ -308,21 +308,23 @@
 		</script>
 
 
-		<!-- progress JS -->
+		<!-- progress JS by Alex, modifications by James-->
 		<script type="text/javascript">
 				jQuery(function($) {
 					$('.prog a').click(function() {
+						//added extra condition to prevent adding styles when clicking on previous
 						if ( !$(this).parent().hasClass('active') && !$(this).parent().hasClass('completed')) {
 							$(this).parent().addClass('active')
-				.siblings('.active')
-				.removeClass('active')
-				.addClass('completed');
+							.siblings('.active')
+							.removeClass('active')
+							.addClass('completed');
 
 			// also switch panels
 			var tar = $(this).attr('href');
 			$(tar).addClass('active')
 				.siblings('.active')
-				.removeClass('active');
+				.removeClass('active')
+				.addClass('completed');
 		}
 		return false;
 		});
