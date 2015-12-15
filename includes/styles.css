@@ -410,6 +410,7 @@ input:focus {
 .prog {
   display: block;
   height: 20px;
+  width: 96%;
 }
 .prog ul {
   display: block;
@@ -434,8 +435,8 @@ input:focus {
 }
 .prog a {
   background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 10px;
+  border: 3px solid #ddd;
+  border-radius: 50%;
   color: #333;
   float: left;
   text-align: center;
@@ -443,9 +444,12 @@ input:focus {
   width: 16px;
   height: 16px;
   position: absolute;
-  top: 0;
+  margin-top: -10px;
   left: -10px;
   z-index: 3;
+  padding: 8px;
+  font-size: 17px;
+  font-weight: bold;
   transition: all linear 200ms;
 }
 .prog .last a {
