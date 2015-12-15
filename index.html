@@ -315,7 +315,13 @@
 				// var positiveIncome = baseIncome - totalExpenses;
 
 				//display result of income minus expenses
-				$("input").not(".poop").subtract("keyup", "#subtract");
+				$("input").not(".poop").subtract({
+					'bind':"keyup",
+					'selector':"#subtract",
+					'oncalc': function () {
+						console.log('oncalc');
+					}
+				});
 
 			});
 		</script>
@@ -375,6 +381,10 @@
 		});
 		});
 		</script>
+
+
+
+
 
 		<!-- C3 CHART-->
 		<script type="text/javascript">
