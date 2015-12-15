@@ -466,7 +466,13 @@ input:focus {
   transition: all linear 0.5s;
 }
 
-.prog .active a {
+/*the "completed" class styles the divs that denote lines between the numbers*/
+.prog .completed div {
+  background: #a2ca07;
+
+}
+.prog .active a,
+.prog .completed a {
   background: #a2ca07;
   color: #fff;
   border: none;
