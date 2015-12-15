@@ -404,6 +404,13 @@ input:focus {
   z-index: 0;
 }
 
+/*************************C3 chart CSS*****************************/
+
+.c3-legend-item {
+  display: none;
+}
+
+
 /*************************ALEX CSS*****************************/
 
 /* progress bar steps tracker */
