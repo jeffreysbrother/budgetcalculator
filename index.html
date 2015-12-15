@@ -331,7 +331,7 @@
 		var actv = $('.prog .active');
 		var nex = actv.next();
 
-		if (nex.size() >= 0) {
+		if (nex.size() > 0) {
 			// click handles changing .active
 			nex.children('a').click();
 		} else {
@@ -350,7 +350,7 @@
 		var actv = $('.prog .active');
 		var preev = actv.prev();
 
-		if (preev.size() >= 0) {
+		if (preev.size() > 0) {
 			// click handles changing .active
 			preev.children('a').click();
 		}
