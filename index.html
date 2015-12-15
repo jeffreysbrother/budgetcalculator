@@ -313,7 +313,7 @@
 				jQuery(function($) {
 					$('.prog a').click(function() {
 						//added extra condition to prevent adding styles when clicking on previous
-						if ( !$(this).parent().hasClass('active') && !$(this).parent().hasClass('completed')) {
+						if ( !$(this).parent().hasClass('active')) {
 							$(this).parent().addClass('active')
 							.siblings('.active')
 							.removeClass('active')
