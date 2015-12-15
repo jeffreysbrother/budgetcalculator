@@ -500,8 +500,8 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1147px) {
   .qbcalc {
-    width: 98%;
+    border: none;
   }
 }
