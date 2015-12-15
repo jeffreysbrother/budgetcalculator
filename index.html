@@ -329,7 +329,7 @@
 		});
 		// in-panel "next" links
 		$('.panel a.next').click(function() {
-		var actv = $('.prog .active, .prog .completed');
+		var actv = $('.prog .active');
 		var nex = actv.next();
 
 		if (nex.size() > 0) {
@@ -337,10 +337,10 @@
 			nex.children('a').click();
 		} else {
 			// on the last?
-			actv.removeClass('active, completed')
+			actv.removeClass('active')
 				.addClass('completed');
 
-			$('#step7').addClass('active, completed')
+			$('#step7').addClass('active')
 				.siblings('.active')
 				.removeClass('active');
 		}
@@ -348,7 +348,7 @@
 		});
 		// in-panel back links
 		$('.panel a.back').click(function() {
-		var actv = $('.prog .active, .prog .completed');
+		var actv = $('.prog .active');
 		var preev = actv.prev();
 
 		if (preev.size() > 0) {
