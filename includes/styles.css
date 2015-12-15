@@ -505,4 +505,7 @@ input:focus {
     border: none;
     margin-top: 0;
   }
+  p.hide {
+    display: none;
+  }
 }
