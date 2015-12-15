@@ -348,11 +348,11 @@
 		// in-panel back links
 		$('.panel a.back').click(function() {
 		var actv = $('.prog .active');
-		var prev = actv.prev();
+		var preev = actv.prev();
 
-		if (prev.size() > 0) {
+		if (preev.size() > 0) {
 			// click handles changing .active
-			prev.children('a').click();
+			preev.children('a').click();
 		}
 		return false;
 		});
