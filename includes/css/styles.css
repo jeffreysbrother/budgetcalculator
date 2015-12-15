@@ -143,6 +143,7 @@ span.reddish {
   margin-top: 10px;
   position: relative;
   z-index: 1;
+  height: 186px;         /*added height value when C3 was implemented*/
 }
 
 .image-container img {
