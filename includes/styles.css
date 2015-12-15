@@ -467,8 +467,8 @@ input:focus {
 }
 .prog .completed div {
   background: #a2ca07;
-  height: 4px;
-  top: 8px;
+  /*height: 4px;
+  top: 8px;*/
 }
 .prog .active a,
 .prog .completed a {
