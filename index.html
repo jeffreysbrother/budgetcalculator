@@ -3,9 +3,10 @@
 <head>
 	<title>Budget Calculator</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="includes/normalize.css">
+	<link rel="stylesheet" type="text/css" href="includes/css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-	<link href="includes/styles.css" rel="stylesheet" type="text/css">
+	<link href="includes/css/c3.css" rel="stylesheet" type="text/css">
+	<link href="includes/css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -91,7 +92,8 @@
 			<!-- chart image -->
 			<div class="image-container">
 
-				<img src="includes/chart.png" alt="chart">
+				<!-- <img src="includes/chart.png" alt="chart"> -->
+				<div id="chart"></div>
 
 			</div>
 
@@ -278,6 +280,8 @@
 		<!-- <script type="text/javascript" src="includes/js/jquery.calculation.min.js"></script> -->
 		<!-- <script type="text/javascript" src="includes/js/autoNumeric.min.js" ></script> -->
 		<script type="text/javascript" src="includes/js/jquery.james.calculation.js"></script>
+		<script src="includes/js/d3.min.js" charset="utf-8"></script>
+		<script src="includes/js/c3.js"></script>
 
 
 		<!-- initialize autoNumeric -->
@@ -371,5 +375,26 @@
 		});
 		});
 		</script>
+
+		<!-- C3 -->
+		<script type="text/javascript">
+			var chart = c3.generate({
+				data: {
+						columns: [
+								['data1', 30],
+								['data2', 120],
+						],
+						type : 'donut',
+						onclick: function (d, i) { console.log("onclick", d, i); },
+						onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+						onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+				},
+				donut: {
+						title: "Iris Petal Width"
+				}
+			});
+		</script>
+
+
 	</body>
 </html>
