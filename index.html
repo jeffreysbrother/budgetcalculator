@@ -320,6 +320,18 @@
 					'selector':"#subtract",
 					'oncalc': function () {
 						console.log('oncalc');
+						chart.unload({
+							ids: [ 'data1', 'data2', 'data3', 'data4', 'data5' ]
+						});
+						chart.load({
+							columns: [
+									['data1', document.getElementById('totalSum1').innerHTML],
+									['data2', document.getElementById('totalSum2').innerHTML],
+									['data3', document.getElementById('totalSum3').innerHTML],
+									['data4', document.getElementById('totalSum4').innerHTML],
+									['data5', document.getElementById('totalSum5').innerHTML]
+							]
+						});
 					}
 				});
 
