@@ -160,7 +160,7 @@ span.reddish {
 }
 
 div.positive-income {
-  background-color: rgba(162,202,7,0);
+  background-color: rgba(162,202,7,1);
   background: -webkit-linear-gradient(rgba(162,202,7,0),rgba(162,202,7,1)); /*Safari 5.1-6*/
   background: -o-linear-gradient(rgba(162,202,7,0),rgba(162,202,7,1)); /*Opera 11.1-12*/
   background: -moz-linear-gradient(rgba(162,202,7,0),rgba(162,202,7,1)); /*Fx 3.6-15*/
