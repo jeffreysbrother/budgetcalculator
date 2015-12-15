@@ -351,16 +351,12 @@
 		var actv = $('.prog .active');
 		var preev = actv.prev();
 
-		if (preev.size() > 0) {
+		if (actv.size() > 0) {
 			// click handles changing .active
 			preev.children('a').click();
 		} else {
-			// on the last?
-			preev.removeClass('active')
-				.removeClass('completed');
-
-			$('#step7').siblings('.active')
-				.removeClass('active');
+			// on the step 7 : so go back to 6
+			$('.prog li:last a').click();
 		}
 		return false;
 		});
