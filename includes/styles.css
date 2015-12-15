@@ -465,13 +465,8 @@ input:focus {
   z-index: 1;
   transition: all linear 0.5s;
 }
-.prog .completed div {
-  background: #a2ca07;
-  /*height: 4px;
-  top: 8px;*/
-}
-.prog .active a,
-.prog .completed a {
+
+.prog .active a {
   background: #a2ca07;
   color: #fff;
   border: none;

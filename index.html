@@ -316,7 +316,6 @@
 							$(this).parent().addClass('active')
 				.siblings('.active')
 				.removeClass('active')
-				.addClass('completed');
 
 			// also switch panels
 			var tar = $(this).attr('href');
@@ -337,7 +336,6 @@
 		} else {
 			// on the last?
 			actv.removeClass('active')
-				.addClass('completed');
 
 			$('#step7').addClass('active')
 				.siblings('.active')
