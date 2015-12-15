@@ -415,7 +415,7 @@
 					      text: "No Data"
 					    }
 					  },
-						// labels: false,
+						labels: true,
 						type : 'donut',
 						onclick: function (d, i) { console.log("onclick", d, i); },
 						onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -434,9 +434,9 @@
 				color: {
 				  pattern: ['#f9c500', '#00a8bc', '#9de031', '#ff00b9', '#ea8800']
 				},
-				interaction: {
-				  enabled: false
-				},
+				// interaction: {
+				//   enabled: false
+				// },
 				donut: {
 					width: 53
 				}
