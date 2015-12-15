@@ -330,17 +330,12 @@
 		// in-panel "next" links
 		$('.panel a.next').click(function() {
 		var actv = $('.prog .active');
-		var complet = $('.prog .completed');
 		var nex = actv.next();
-		var nexx = complet.next();
 
 		if (nex.size() > 0) {
 			// click handles changing .active
 			nex.children('a').click();
-		} else if (nexx.size() > 0) {
-			nexx.children('a').click();
-		}
-		else {
+		} else {
 			// on the last?
 			actv.removeClass('active')
 				.addClass('completed');
