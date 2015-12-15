@@ -382,10 +382,12 @@
 				data: {
 						columns: [
 								['data1', 30],
-								['data2', 120],
+								['data2', 30],
+								['data3', 30],
+								['data4', 30],
+								['data5', 30]
 						],
 						labels: false,
-						hide: true,
 						type : 'donut',
 						onclick: function (d, i) { console.log("onclick", d, i); },
 						onmouseover: function (d, i) { console.log("onmouseover", d, i); },
@@ -400,6 +402,13 @@
 				size: {
 				  height: 190
 				},
+				colors: {
+			    data1: '#f9c500',
+			    data2: '#00a8bc',
+					data3: '#9de031',
+					data4: '#ff00b9',
+					data5: '#ea8800'
+			  }
 				interaction: {
 				  enabled: false
 				}
