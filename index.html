@@ -410,11 +410,11 @@
 								['data4', 30],
 								['data5', 30]
 						],
-						empty: {
-					    label: {
-					      text: "No Data"
-					    }
-					  },
+						// empty: {
+					  //   label: {
+					  //     text: "No Data"
+					  //   }
+					  // },
 						labels: true,
 						type : 'donut',
 						onclick: function (d, i) { console.log("onclick", d, i); },
@@ -434,9 +434,9 @@
 				color: {
 				  pattern: ['#f9c500', '#00a8bc', '#9de031', '#ff00b9', '#ea8800']
 				},
-				// interaction: {
-				//   enabled: false
-				// },
+				interaction: {
+				  enabled: true
+				},
 				donut: {
 					width: 53
 				}
