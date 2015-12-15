@@ -407,7 +407,8 @@ input:focus {
 
 /*************************C3 chart CSS*****************************/
 
-.c3-legend-item {
+.c3-legend-item,
+.c3-chart-arc text {
   display: none;
 }
 
