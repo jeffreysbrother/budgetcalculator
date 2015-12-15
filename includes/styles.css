@@ -444,7 +444,7 @@ input:focus {
   width: 16px;
   height: 16px;
   position: absolute;
-  margin-top: -10px;
+  margin-top: -8px;
   left: -10px;
   z-index: 3;
   padding: 8px;
@@ -474,6 +474,9 @@ input:focus {
 .prog .completed a {
   background: #a2ca07;
   color: #fff;
+  border: none;
+  margin-top: -9px;
+  padding: 11px;
 }
 /* steps panels */
 .panel {
