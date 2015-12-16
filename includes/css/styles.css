@@ -68,10 +68,12 @@ div.progress div:last-of-type {
   border: 2px solid #ddd;
   margin: 40px auto;
   position: relative;
-  width: 1024px;
+  width: 95%;
+  max-width: 1024px;
   height: 626px;
   padding: 30px;
   border-radius: 6px;
+
   /*z-index: -2;*/
 }
 
