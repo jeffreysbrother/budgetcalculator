@@ -596,5 +596,7 @@ input:focus {
   .next.first-button {
     float: none;
   }
-
+  .whats-new-hero {
+    max-width: 1126px;
+  }
 }
