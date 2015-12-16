@@ -562,7 +562,8 @@ input:focus {
   }
 
   .last-panel-left h1,
-  .last-panel-left h3 {
+  .last-panel-left h3,
+  .qbcalc h1 {
     text-align: center;
   }
 
