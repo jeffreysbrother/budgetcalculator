@@ -547,6 +547,7 @@ input:focus {
   a.compare,
   a.back {
     margin-right: 0;
+    margin-left: 0;
     text-align: center;
     display: block;
     width: 89%;
