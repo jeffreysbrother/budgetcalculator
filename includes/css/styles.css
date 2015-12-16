@@ -534,5 +534,9 @@ input:focus {
     display: block;
     width: 100%;
   }
+  .form-wrap {
+    height: auto;
+    margin-bottom: 30px;
+  }
 
 }
