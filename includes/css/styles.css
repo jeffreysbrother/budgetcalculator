@@ -539,6 +539,7 @@ input:focus {
     margin-bottom: 30px;
   }
   div.column1 {
+    display: block;
     margin: 0 auto;
   }
 
