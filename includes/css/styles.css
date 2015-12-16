@@ -576,8 +576,8 @@ input:focus {
   .whats-new-hero-2 {
     display: block;
     margin: 0 auto;
+    width: 85%;
   }
-
 }
 
 @media screen and (max-width: 1147px) {
