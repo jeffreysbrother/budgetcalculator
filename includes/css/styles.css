@@ -585,6 +585,9 @@ input:focus {
   .back {
     margin-top: 10px;
   }
+  .compare {
+    margin-bottom: 24px;
+  }
   input[type="text"] {
     text-align: left;
     /*padding-left: 10px;*/
