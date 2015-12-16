@@ -541,6 +541,7 @@ input:focus {
   div.column1 {
     display: block;
     margin: 0 auto;
+    min-width: 226px;
   }
 
 }
