@@ -84,11 +84,11 @@
 					<p class="salary hide">Salary/Wages</p>
 					<p class="other hide">Other Income</p>
 					<form>
-				<!-- these two poop classes are not figured into the "expenses" -->
+				<!-- these two exclude classes are not figured into the "expenses" -->
 						<p class="mobile-label">Salary/Wages:</p>
-						<input class="left-input poop" type="text" name="sum" />
+						<input class="left-input exclude" type="text" name="sum" />
 						<p class="mobile-label">Other Income:</p>
-						<input class="poop" type="text" name="sum" />
+						<input class="exclude" type="text" name="sum" />
 					</form>
 				</div>
 				<a href="#step2" class="next first-button">NEXT</a>
@@ -342,15 +342,15 @@
 				$("input[name='sum']").sum("keyup", "#subtract");
 
 				//display the sum of all input fields except monthly income fields
-				//the "poop" class serves to exclude these fields.
-				$("input").not(".poop").sum("keyup", "#expenses");
+				//the "exclude" class serves to exclude these fields.
+				$("input").not(".exclude").sum("keyup", "#expenses");
 
 				// var baseIncome = $("#totalSum").val();
 				// var totalExpenses = $("#expenses").val();
 				// var positiveIncome = baseIncome - totalExpenses;
 
 				//display result of income minus expenses
-				$("input").not(".poop").subtract({
+				$("input").not(".exclude").subtract({
 					'bind':"keyup",
 					'selector':"#subtract",
 					'oncalc': function () {
