@@ -336,6 +336,8 @@
 				$("input[name='sum4']").sum("keyup", "#totalSum4");
 				$("input[name='sum5']").sum("keyup", "#totalSum5");
 				$("input[name='sum6']").sum("keyup", "#totalSum6");
+
+				$("input[name='sum']").sum("keyup", "#subtract");
 				//display the sum of all input fields except monthly income fields
 				//the "poop" class serves to exclude these fields.
 				$("input").not(".poop").sum("keyup", "#expenses");
@@ -345,7 +347,7 @@
 				// var positiveIncome = baseIncome - totalExpenses;
 
 				//display result of income minus expenses
-				$("input").subtract({
+				$("input").not(".poop").subtract({
 					'bind':"keyup",
 					'selector':"#subtract",
 					'oncalc': function () {
