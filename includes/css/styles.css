@@ -533,6 +533,10 @@ input:focus {
     clear: both;
 }
 
+.mobile-label {
+  display: none;
+}
+
 /***********************END ALEX CSS***************************/
 
 /*MEDIA QUERIES*/
@@ -604,5 +608,10 @@ input:focus {
   }
   .whats-new-hero {
     max-width: 1100px;
+  }
+  .mobile-label {
+    display: block;
+    margin: 0;
+    font-weight: bold;
   }
 }
