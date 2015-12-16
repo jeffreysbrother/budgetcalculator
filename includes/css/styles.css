@@ -505,6 +505,10 @@ input:focus {
   display: block;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 /***********************END ALEX CSS***************************/
 
 /*MEDIA QUERIES*/
