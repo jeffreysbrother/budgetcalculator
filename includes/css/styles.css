@@ -91,7 +91,8 @@ div.progress div:last-of-type {
 div.column1 {
   display: inline-block;
   width: 22%;
-  float: left;
+  clear: right;
+  /*float: left;*/
   /*border: 2px solid red;*/
   position: relative;
   top: 7px;
@@ -100,7 +101,8 @@ div.column1 {
 div.column2 {
   display: inline-block;
   width: 67%;
-  clear: right;
+  float: left;
+  /*clear: right;*/
   /*border: 2px solid red;*/
 }
 
