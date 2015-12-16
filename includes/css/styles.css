@@ -251,11 +251,13 @@ div.positive-income p.value {
   position: relative;
   font-weight: bold;
   border: none;
-  width: 168px;
+  /*width: 168px;*/
   text-decoration: none;
-  padding: 14px 60px;
-  margin-right: 20px;
-  margin-left: 109px;
+  padding: 14px 50px;
+  /*margin-right: 20px;*/
+  margin-left: 159px;
+  clear: right;
+  bottom: 2px;
 }
 
 table {
@@ -420,9 +422,9 @@ input:focus {
 
 .whats-new-hero {
   position: relative;
-  bottom: 226px;
-  right: 144px;
-  width: 123%;
+  bottom: 227px;
+  right: 116px;
+  width: 114%;
   z-index: 0;
 }
 
