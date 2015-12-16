@@ -580,6 +580,10 @@ input:focus {
     display: block;
     width: 96%;
     left: 0;
+    float: none;
+  }
+  .back {
+    margin-top: 10px;
   }
   input[type="text"] {
     text-align: left;
