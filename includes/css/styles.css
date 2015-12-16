@@ -538,5 +538,8 @@ input:focus {
     height: auto;
     margin-bottom: 30px;
   }
+  div.column1 {
+    margin: 0 auto;
+  }
 
 }
