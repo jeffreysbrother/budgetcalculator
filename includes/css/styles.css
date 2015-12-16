@@ -548,6 +548,22 @@ input:focus {
   p.other {
     margin-left: 335px;      /*378px in large viewports*/
   }
+}
+
+@media screen and (max-width: 728px) {
+  /*hide hero*/
+  .whats-new-hero {
+    display: none;
+  }
+  .last-panel-left {
+    display: block;
+    width: 100%;
+  }
+
+  .last-panel-left h1,
+  .last-panel-left h3 {
+    text-align: center;
+  }
 
 }
 
