@@ -613,5 +613,6 @@ input:focus {
     display: block;
     margin: 0;
     font-weight: bold;
+    color: #555;
   }
 }
