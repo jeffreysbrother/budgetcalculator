@@ -556,7 +556,7 @@ input:focus {
     display: none;
   }
   input {
-    width: 100%;
+    width: 98%;
   }
   div.column2 {
     display: block;
@@ -578,11 +578,12 @@ input:focus {
     margin-left: 0;
     text-align: center;
     display: block;
-    width: 89%;
+    width: 96%;
+    left: 0;
   }
   input[type="text"] {
     text-align: left;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
   }
   .next.first-button {
     float: none;
