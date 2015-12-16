@@ -253,7 +253,7 @@ div.positive-income p.value {
   border: none;
   /*width: 168px;*/
   text-decoration: none;
-  padding: 14px 50px;
+  padding: 14px 16px;
   /*margin-right: 20px;*/
   margin-left: 159px;
   clear: right;
@@ -578,7 +578,7 @@ input:focus {
     margin-left: 0;
     text-align: center;
     display: block;
-    width: 94%;
+    width: 95%;
     left: 0;
     float: none;
   }
