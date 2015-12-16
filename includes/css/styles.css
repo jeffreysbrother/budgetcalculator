@@ -213,6 +213,13 @@ div.positive-income p.value {
   float: right;
   text-align: center;
   left: -337px;
+  bottom: 16px;
+}
+
+/*this positions only the very first "next" button*/
+.next.first-button {
+  float: left;
+  left: 0;
 }
 
 
@@ -232,6 +239,7 @@ div.positive-income p.value {
   /*margin-right: 20px;*/
   float: left;
   text-align: center;
+  bottom: 16px;
 }
 
 .compare {
