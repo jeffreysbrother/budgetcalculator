@@ -204,12 +204,15 @@ div.positive-income p.value {
   padding-bottom: 9px;
   color: white;
   position: relative;
-  /*top: 270px;*/
   font-weight: bold;
   border: none;
-  width: 168px;
+  width: 117px;
   text-decoration: none;
-  padding: 14px 60px;
+  padding: 14px 16px;
+  /*margin-right: 20px;*/
+  float: right;
+  text-align: center;
+  left: -337px;
 }
 
 
@@ -220,13 +223,15 @@ div.positive-income p.value {
   padding-bottom: 9px;
   color: white;
   position: relative;
-  /*top: 270px;*/
   font-weight: bold;
   border: none;
-  width: 168px;
+  /*width: 168px;*/
+  width: 117px;
   text-decoration: none;
-  padding: 14px 60px;
-  margin-right: 20px;
+  padding: 14px 16px;
+  /*margin-right: 20px;*/
+  float: left;
+  text-align: center;
 }
 
 .compare {
@@ -236,7 +241,6 @@ div.positive-income p.value {
   padding-bottom: 9px;
   color: white;
   position: relative;
-  /*top: 270px;*/
   font-weight: bold;
   border: none;
   width: 168px;
