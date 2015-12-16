@@ -557,7 +557,8 @@ input:focus {
   }
   .last-panel-left {
     display: block;
-    width: 100%;
+    width: 96%;
+    margin: auto;
   }
 
   .last-panel-left h1,
