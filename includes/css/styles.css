@@ -514,6 +514,9 @@ input:focus {
   p.other {
     margin-left: 335px;      /*378px in large viewports*/
   }
+  .qbcalc {
+    width: 98%;
+  }
 }
 
 @media screen and (max-width: 1147px) {
