@@ -602,6 +602,8 @@ input:focus {
     text-align: left;
     text-indent: 10px;
     padding-right: 0;
+    margin-top: 4px;
+    margin-bottom: 24px;
   }
   .next.first-button {
     float: none;
