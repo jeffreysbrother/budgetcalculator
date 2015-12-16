@@ -590,6 +590,8 @@ input:focus {
     float: none;
     padding-top: 17px;
     padding-bottom: 17px;
+    /*this forces the buttons to sit on top of the tall column1 div*/
+    z-index: 5;
   }
   .back {
     margin-top: 10px;
@@ -604,6 +606,8 @@ input:focus {
     padding-right: 0;
     margin-top: 4px;
     margin-bottom: 24px;
+    /*this forces the input fields to sit on top of the tall column1 div*/
+    z-index: 5;
   }
   .next.first-button {
     float: none;
