@@ -577,6 +577,7 @@ input:focus {
     display: block;
     margin: 0 auto;
     width: 85%;
+    max-width: 362px;
   }
 }
 
