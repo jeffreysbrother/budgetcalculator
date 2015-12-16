@@ -167,10 +167,10 @@ div.positive-income {
   background: linear-gradient(to rrgba(162,202,7,0), rgba(162,202,7,1)); */
 
   background-color: #a2ca07;
-  background: -webkit-linear-gradient(#86A607, #a2ca07); /*Safari 5.1-6*/
-  background: -o-linear-gradient(#86A607, #a2ca07); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(#86A607,#a2ca07); /*Fx 3.6-15*/
-  background: linear-gradient(#86A607, #a2ca07); /*Standard*/
+  background: -webkit-linear-gradient( 0deg, #a2ca07 80%, #86A607); /*Safari 5.1-6*/
+  background: -o-linear-gradient(0deg, #a2ca07 80%, #86A607); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(0deg, #a2ca07 80%, #86A607); /*Fx 3.6-15*/
+  background: linear-gradient(0deg, #a2ca07 80%, #86A607); /*Standard*/
 
   border-radius: 9px;
   padding-top: 11px;
