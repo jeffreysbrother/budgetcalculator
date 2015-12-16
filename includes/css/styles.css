@@ -556,5 +556,9 @@ input:focus {
     display: block;
     width: 89%;
   }
+  input[type="text"] {
+    text-align: left;
+    padding-left: 10px;
+  }
 
 }
