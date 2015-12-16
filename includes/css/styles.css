@@ -519,9 +519,10 @@ input:focus {
   display: block;
 }
 
-/*.clearfix {
-  overflow: auto;
-}*/
+
+/***********************END ALEX CSS***************************/
+
+
 
 .clearfix:before,
 .clearfix:after {
@@ -533,11 +534,16 @@ input:focus {
     clear: both;
 }
 
+/*don't display labels in desktop:  */
 .mobile-label {
   display: none;
 }
 
-/***********************END ALEX CSS***************************/
+/*don't display second image in desktop:  */
+.whats-new-hero-2 {
+  display: none;
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -565,6 +571,11 @@ input:focus {
   .last-panel-left h3,
   .qbcalc h1 {
     text-align: center;
+  }
+
+  .whats-new-hero-2 {
+    display: block;
+    margin: 0 auto;
   }
 
 }
