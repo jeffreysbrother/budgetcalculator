@@ -543,5 +543,13 @@ input:focus {
     margin: 0 auto;
     min-width: 226px;
   }
+  a.next,
+  a.compare,
+  a.back {
+    margin-right: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
 
 }
