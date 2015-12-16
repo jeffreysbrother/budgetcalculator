@@ -581,6 +581,8 @@ input:focus {
     width: 95%;
     left: 0;
     float: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
   }
   .back {
     margin-top: 10px;
