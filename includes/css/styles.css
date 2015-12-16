@@ -517,8 +517,18 @@ input:focus {
   display: block;
 }
 
-.clearfix {
+/*.clearfix {
   overflow: auto;
+}*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
 }
 
 /***********************END ALEX CSS***************************/
@@ -571,6 +581,9 @@ input:focus {
   input[type="text"] {
     text-align: left;
     padding-left: 10px;
+  }
+  .next.first-button {
+    float: none;
   }
 
 }
