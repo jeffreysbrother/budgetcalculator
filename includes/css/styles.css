@@ -527,4 +527,13 @@ input:focus {
   p.hide {
     display: none;
   }
+  input {
+    width: 100%;
+  }
+  div.column1,
+  div.column2 {
+    display: block;
+    width: 100%;
+  }
+
 }
