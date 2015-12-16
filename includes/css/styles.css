@@ -558,6 +558,9 @@ input:focus {
   input {
     width: 98%;
   }
+  .left-input {
+    margin-right: 0;
+  }
   div.column2 {
     display: block;
     width: 100%;
