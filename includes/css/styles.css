@@ -644,7 +644,7 @@ input:focus {
     margin: 0 auto;
     min-width: 226px;
     top: 20px;
-    width: 75%;
+    width: 100%;
   }
   a.next,
   a.compare,
