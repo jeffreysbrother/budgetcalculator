@@ -704,7 +704,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   }
   /*center chart when viewport is resized and the container expands*/
   div.C3-wrapper {
-    width: 410px;
+    width: 426px;
     margin: auto;
   }
   div.image-container {
