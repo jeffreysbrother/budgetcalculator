@@ -92,11 +92,13 @@ div.progress div:last-of-type {
 div.column1 {
   display: inline-block;
   width: 22%;
+  min-width: 225px;
   clear: left;
   /*float: left;*/
   /*border: 2px solid red;*/
   position: relative;
   top: 7px;
+  z-index: 3;
 }
 
 div.column2 {
@@ -264,11 +266,6 @@ div.positive-income p.value {
 table {
   position: relative;
   left: 6px;
-}
-
-div.column1 {
-  position: relative;
-  z-index: 3;
 }
 
 div.column1 tr.underline {
