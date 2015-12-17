@@ -92,7 +92,6 @@ div.progress div:last-of-type {
 div.column1 {
   display: inline-block;
   width: 22%;
-  min-width: 225px;
   clear: left;
   /*float: left;*/
   /*border: 2px solid red;*/
