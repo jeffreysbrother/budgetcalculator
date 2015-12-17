@@ -588,6 +588,9 @@ input:focus {
     border: none;
     margin-top: 0;
   }
+  input:not([type="checkbox"]):not([type="radio"]) {
+    -webkit-appearance: none;
+  }
 }
 
 /*breakpoints for swapping out image, formatting last page, headings*/
