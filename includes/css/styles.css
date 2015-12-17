@@ -548,7 +548,7 @@ input:focus {
 
 /*MEDIA QUERIES*/
 
-/*@media screen and (max-width: 700px) {      
+/*@media screen and (max-width: 700px) {
   input {
     width: 252px;
   }
@@ -556,6 +556,27 @@ input:focus {
     margin-left: 335px;
   }
 }*/
+
+
+@media screen and (max-width: 1095px) {
+  .left-input {
+    margin-right: 5px;
+  }
+  p.other,
+  p.HOA,
+  p.car-ins,
+  p.loans,
+  p.cloth,
+  p.invest,
+  p.ins,
+  p.utilities,
+  p.phone,
+  p.parking,
+  p.ent,
+  p.pet {
+    margin-left: 338px;
+  }
+}
 
 @media screen and (max-width: 728px) {
   /*hide hero*/
