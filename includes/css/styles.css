@@ -548,14 +548,14 @@ input:focus {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 700px) {       /*to fix Safari issue: iPhone*/
+/*@media screen and (max-width: 700px) {      
   input {
-    width: 252px;      /*295 in large viewports*/
+    width: 252px;
   }
   p.other {
-    margin-left: 335px;      /*378px in large viewports*/
+    margin-left: 335px;
   }
-}
+}*/
 
 @media screen and (max-width: 728px) {
   /*hide hero*/
