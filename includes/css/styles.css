@@ -710,4 +710,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   div.image-container {
     height: 302px;
   }
+  #chart {
+    width: 410px;
+  }
 }
