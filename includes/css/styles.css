@@ -703,7 +703,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
     width: 222px;
     margin: auto;
   }
-  div.image-container {
+  /*div.image-container {
     height: 302px;
-  }
+  }*/
 }
