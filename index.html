@@ -325,9 +325,14 @@
         $('input').autoNumeric('init', {
           mDec: 0,
           aSign: '$',
+					vMin: "-9999",
+					vMax: "9999"
+        });
+
+				$('.exclude').autoNumeric('init', {
 					vMin: "-99999",
 					vMax: "99999"
-        });
+				});
 
 				//this will add max length attribute to all inputs
 				//only later versions of jQuery allow for the prop() function
