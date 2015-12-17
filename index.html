@@ -315,13 +315,17 @@
 
 		<!-- initialize autoNumeric -->
 		<script type="text/javascript">
-			$(document).ready(function(){
-				 $("input").autoNumeric("init",{
-							aSep: '.',
-							aDec: ',',
-							aSign: '$'
-					});
-				});
+		$(document).ready(function () {
+	         $.extend($.fn.autoNumeric.defaults, {
+	             aSep: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberGroupSeparator',
+	             aDec: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator',
+	             aSign: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol'
+	         });
+	     });
+
+	   jQuery(function($) {
+	       $('input').autoNumeric('init');    
+	   });
 		</script>
 
 		<!-- calculation JS -->
