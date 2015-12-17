@@ -302,10 +302,11 @@
 
 	</div> <!-- closing tag for qbcalc div -->
 
-<!--
+
 <script type="text/javascript" src="includes/jquery-1.7.2.min.js"></script>
--->
+<!--
 		<script type="text/javascript" src="includes/js/jquery-1.2.1.js"></script>
+-->
 		<script type="text/javascript" src="includes/js/jquery.field.min.js"></script>
 		<!-- <script type="text/javascript" src="includes/js/jquery.calculation.min.js"></script> -->
 		<script type="text/javascript" src="includes/js/autoNumeric.min.js" ></script>
@@ -313,25 +314,17 @@
 		<script src="includes/js/d3.min.js" charset="utf-8"></script>
 		<script src="includes/js/c3.js"></script>
 
-		<!-- initialize autoNumeric -->
-		<script type="text/javascript">
-		$(document).ready(function () {
-	         $.extend($.fn.autoNumeric.defaults, {
-	             aSep: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberGroupSeparator',
-	             aDec: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator',
-	             aSign: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol'
-	         });
-	     });
-
-	   jQuery(function($) {
-	       $('input').autoNumeric('init');    
-	   });
-		</script>
-
 		<!-- calculation JS -->
 		<script type="text/javascript">
 			$( document ).ready(function() {
-
+      /*
+        // pull default autoNumeric settings
+        $.extend($.fn.autoNumeric.defaults, {
+           aSep: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberGroupSeparator',
+           aDec: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator',
+           aSign: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol'
+        });
+        */
 				//this will add max length attribute to all inputs
 				//only later versions of jQuery allow for the prop() function
 				$("input").attr('maxlength', 6);
@@ -376,63 +369,61 @@
 						});
 					}
 				});
+        // autoNumeric
+        $('input').autoNumeric('init', {
+          mDec: 0,
+          aSign: '$'
+        });
+        //progress JS by Alex, modifications by James-->
+        $('.prog a').click(function() {
+          //added extra condition to prevent adding styles when clicking on previous
+          if ( !$(this).parent().hasClass('active')) {
+            $(this).parent().addClass('active')
+            .siblings('.active')
+            .removeClass('active')
+            .addClass('completed');
 
-			});
-		</script>
+            // also switch panels
+            var tar = $(this).attr('href');
+            $(tar).addClass('active')
+              .siblings('.active')
+              .removeClass('active')
+          }
+          return false;
+      });
+      // in-panel "next" links
+      $('.panel a.next').click(function() {
+        var actv = $('.prog .active');
+        var nex = actv.next();
 
+        if (nex.size() > 0) {
+          // click handles changing .active
+          nex.children('a').click();
+        } else {
+          // on the last?
+          actv.removeClass('active')
+            .addClass('completed');
 
-		<!-- progress JS by Alex, modifications by James-->
-		<script type="text/javascript">
-				jQuery(function($) {
-					$('.prog a').click(function() {
-						//added extra condition to prevent adding styles when clicking on previous
-						if ( !$(this).parent().hasClass('active')) {
-							$(this).parent().addClass('active')
-							.siblings('.active')
-							.removeClass('active')
-							.addClass('completed');
+          $('#step7').addClass('active')
+            .siblings('.active')
+            .removeClass('active');
+        }
+        return false;
+      });
+      // in-panel back links
+      $('.panel a.back').click(function() {
+        var actv = $('.prog .active');
+        var preev = actv.prev();
 
-			// also switch panels
-			var tar = $(this).attr('href');
-			$(tar).addClass('active')
-				.siblings('.active')
-				.removeClass('active')
-		}
-		return false;
-		});
-		// in-panel "next" links
-		$('.panel a.next').click(function() {
-		var actv = $('.prog .active');
-		var nex = actv.next();
-
-		if (nex.size() > 0) {
-			// click handles changing .active
-			nex.children('a').click();
-		} else {
-			// on the last?
-			actv.removeClass('active')
-				.addClass('completed');
-
-			$('#step7').addClass('active')
-				.siblings('.active')
-				.removeClass('active');
-		}
-		return false;
-		});
-		// in-panel back links
-		$('.panel a.back').click(function() {
-		var actv = $('.prog .active');
-		var preev = actv.prev();
-
-		if (actv.size() > 0) {
-			// click handles changing .active
-			preev.children('a').click();
-		} else {
-			// on the step 7 : so go back to 6
-			$('.prog li:last a').click();
-		}
-		return false;
-		});
+        if (actv.size() > 0) {
+          // click handles changing .active
+          preev.children('a').click();
+        } else {
+          // on the step 7 : so go back to 6
+          $('.prog li:last a').click();
+        }
+        return false;
+      });
 		});
 		</script>
 
