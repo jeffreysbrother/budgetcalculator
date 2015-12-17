@@ -558,6 +558,7 @@ input:focus {
 }*/
 
 
+/*breakpoints to prevent inputs from wrapping before main media queries take place*/
 @media screen and (max-width: 1095px) {
   .left-input {
     margin-right: 5px;
@@ -585,6 +586,7 @@ input:focus {
   }
 }
 
+/*breakpoints for swapping out image, formatting last page, headings*/
 @media screen and (max-width: 728px) {
   /*hide hero*/
   .whats-new-hero {
@@ -610,6 +612,7 @@ input:focus {
   }
 }
 
+/*main media queries: buttons, inputs set to 100% width*/
 @media screen and (max-width: 1000px) {
   .qbcalc {
     border: none;
