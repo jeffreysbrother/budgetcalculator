@@ -322,6 +322,8 @@
 					}
 				});
         // autoNumeric
+					//salary inputs will have $99,999 max (keep in mind this is MONTHLY salary)
+					//all other inputs will have $9,999 max (keep in mind this is MONTHLY expenses)
         $('input').not('.exclude').autoNumeric('init', {
           mDec: 0,
           aSign: '$',
