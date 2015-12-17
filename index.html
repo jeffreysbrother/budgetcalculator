@@ -285,10 +285,6 @@
 		<script type="text/javascript">
 			$( document ).ready(function() {
 
-				//this will add max length attribute to all inputs
-				//only later versions of jQuery allow for the prop() function
-				$("input").attr('maxlength', 6);
-
 				//sum inputs and display resulting value in table with appropriate ID
 				$("input[name='sum']").sum("keyup", "#totalSum");
 				$("input[name='sum2']").sum("keyup", "#totalSum2");
@@ -330,6 +326,12 @@
           mDec: 0,
           aSign: '$'
         });
+
+				//this will add max length attribute to all inputs
+				//only later versions of jQuery allow for the prop() function
+				$("input").attr('maxlength', 6);
+
+
         //progress JS by Alex, modifications by James-->
         $('.prog a').click(function() {
           //added extra condition to prevent adding styles when clicking on previous
