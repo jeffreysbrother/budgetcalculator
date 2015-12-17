@@ -574,7 +574,10 @@ input:focus {
   p.parking,
   p.ent,
   p.pet {
-    margin-left: 338px;
+    margin-left: 324px;
+  }
+  input {
+    width: 291px;
   }
 }
 
