@@ -711,8 +711,8 @@ input:not([type="checkbox"]):not([type="radio"]) {
     height: 314px;
   }
   #chart {
-    width: 310px;
-    height: 310px;
+    width: 314px;
+    height: 314px;
     margin: auto;
   }
 }
