@@ -588,6 +588,12 @@ input:focus {
   input:not([type="checkbox"]):not([type="radio"]) {
     -webkit-appearance: none;
   }
+  div.positive-income {
+    min-width: 224px;
+  }
+  div.image-container {
+    min-width: 221px;
+  }
 }
 
 /*breakpoints for swapping out image, formatting last page, headings*/
