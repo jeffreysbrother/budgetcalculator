@@ -584,6 +584,10 @@ input:focus {
   .back {
     width: 14%;
   }
+  .qbcalc {
+    border: none;
+    margin-top: 0;
+  }
 }
 
 /*breakpoints for swapping out image, formatting last page, headings*/
@@ -614,10 +618,6 @@ input:focus {
 
 /*main media queries: buttons, inputs set to 100% width*/
 @media screen and (max-width: 1000px) {
-  .qbcalc {
-    border: none;
-    margin-top: 0;
-  }
   p.hide {
     display: none;
   }
