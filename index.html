@@ -317,17 +317,10 @@
 		<!-- calculation JS -->
 		<script type="text/javascript">
 			$( document ).ready(function() {
-      /*
-        // pull default autoNumeric settings
-        $.extend($.fn.autoNumeric.defaults, {
-           aSep: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberGroupSeparator',
-           aDec: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator',
-           aSign: '@System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol'
-        });
-        */
+
 				//this will add max length attribute to all inputs
 				//only later versions of jQuery allow for the prop() function
-				$("input").attr('maxlength', 6);
+	// $("input").attr('maxlength', 6);
 
 				//sum inputs and display resulting value in table with appropriate ID
 				$("input[name='sum']").sum("keyup", "#totalSum");
@@ -344,10 +337,6 @@
 				//display the sum of all input fields except monthly income fields
 				//the "exclude" class serves to exclude these fields.
 				$("input").not(".exclude").sum("keyup", "#expenses");
-
-				// var baseIncome = $("#totalSum").val();
-				// var totalExpenses = $("#expenses").val();
-				// var positiveIncome = baseIncome - totalExpenses;
 
 				//display result of income minus expenses
 				$("input").not(".exclude").subtract({
