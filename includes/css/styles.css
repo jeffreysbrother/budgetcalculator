@@ -541,6 +541,11 @@ input:focus {
   display: none;
 }
 
+/*this gets rid of the inset shadow on input elements on ipad Safari (but not checkboxes and radio buttons)*/
+input:not([type="checkbox"]):not([type="radio"]) {
+  -webkit-appearance: none;
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -584,10 +589,7 @@ input:focus {
     border: none;
     margin-top: 0;
   }
-  /*this gets rid of the inset shadow on input elements on ipad Safari (but not checkboxes and radio buttons)*/
-  input:not([type="checkbox"]):not([type="radio"]) {
-    -webkit-appearance: none;
-  }
+
   div.positive-income {
     min-width: 224px;
   }
@@ -696,5 +698,9 @@ input:focus {
     margin: auto;
     width: 100%;
   }
-
+  /*center chart when viewport is resized and the container expands*/
+  div.C3-wrapper {
+    width: 222px;
+    margin: auto;
+  }
 }
