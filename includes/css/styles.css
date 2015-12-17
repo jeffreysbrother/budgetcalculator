@@ -515,6 +515,10 @@ input:focus {
 .panel.active {
   display: block;
 }
+#chart {
+  height: 200px;
+  width: 221px;
+}
 
 
 /***********************END ALEX CSS***************************/
@@ -705,9 +709,5 @@ input:not([type="checkbox"]):not([type="radio"]) {
   }
   div.image-container {
     height: 302px;
-  }
-  #chart {
-    width: 100%;
-    height: 100%;
   }
 }
