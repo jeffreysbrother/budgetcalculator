@@ -588,6 +588,7 @@ input:focus {
     border: none;
     margin-top: 0;
   }
+  /*this gets rid of the inset shadow on input elements on ipad Safari (but not checkboxes and radio buttons)*/
   input:not([type="checkbox"]):not([type="radio"]) {
     -webkit-appearance: none;
   }
