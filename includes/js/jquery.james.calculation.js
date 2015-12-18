@@ -321,17 +321,13 @@
                         return total;
                 },
                 // subtract an array (custom function added by James Cool)
-                subtract: function (a){
-                        var total = document.getElementById('totalSum').innerHTML;
+                subtract: function (a, b){
+                        var a = document.getElementById('totalSum').innerHTML;
+                        var b = document.getElementById('expenses').innerHTML;
 
-                        // loop through the value and total them
-                        $.each(a, function (i, v){
-                                // we add 0 to the value to ensure we get a numberic value
-                                total -= v;
-                        });
 
                         // return the values as a comma-delimited string
-                        return total;
+                        return a - b;
                 },
                 // average an array
                 avg: function (a){
