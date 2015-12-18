@@ -307,15 +307,15 @@
 					'oncalc': function () {
 						console.log('oncalc');
 						chart.unload({
-							ids: [ hou, tran, edu, per, sav ]
+							ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
 						});
 						chart.load({
 							columns: [
-									[hou, document.getElementById('totalSum2').innerHTML],
-									[tran, document.getElementById('totalSum3').innerHTML],
-									[edu, document.getElementById('totalSum4').innerHTML],
-									[per, document.getElementById('totalSum5').innerHTML],
-									[sav, document.getElementById('totalSum6').innerHTML]
+									['housing', document.getElementById('totalSum2').innerHTML],
+									['transportation', document.getElementById('totalSum3').innerHTML],
+									['educational', document.getElementById('totalSum4').innerHTML],
+									['personal', document.getElementById('totalSum5').innerHTML],
+									['savings', document.getElementById('totalSum6').innerHTML]
 							]
 						});
 					}
@@ -395,20 +395,16 @@
 
 		<!-- C3 CHART-->
 		<script type="text/javascript">
-
-		var col5 = [];//set empty array
-					if (hou || tran || edu || per || sav){
-							col5 = [['housing', hou],
-											['transportation', tran],
-											['educational', edu],
-											['personal', per],
-										  ['savings', sav]]
-					}
-
 			var chart = c3.generate({
 				bindto: '#chart',
 				data: {
-						columns: col5,
+						columns: [
+								['housing', 0],
+								['transportation', 0],
+								['educational', 0],
+								['personal', 0],
+								['savings', 0]
+						],
 						empty: {
 					    label: {
 					      text: "No Data"
