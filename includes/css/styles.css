@@ -9,16 +9,12 @@ body {
   padding: 0;
 }
 
-/*progress styles*/
-.progress {
-  height: 71px;
-  padding-top: 25px;
-  /*border: 2px solid red;*/
-}
 
-div.progress div:last-of-type {
+
+
+/*div.progress div:last-of-type {
   margin-right: 0;
-}
+}*/
 
 .qbcalc {
   background: #fff;
@@ -395,8 +391,9 @@ input:focus {
 /* progress bar steps tracker */
 .prog {
   display: block;
-  height: 20px;
   width: 96%;
+  height: 71px;
+  padding-top: 25px;
 }
 .prog ul {
   display: block;
