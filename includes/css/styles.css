@@ -300,7 +300,7 @@ p.ins,
 p.repairs,
 p.utilities,
 p.TV,
-/*p.phone,*/
+p.phone,
 p.car,
 p.car-ins,
 p.gas,
@@ -333,15 +333,9 @@ p.other, p.HOA, p.car-ins, p.loans, p.cloth, p.invest {
   margin-top: 28px;
 }
 
-/*p.phone {
+p.phone {
   margin-left: 378px;
   margin-top: 254px;
-}*/
-
-p.phone {
-  position: relative;
-  text-align: left;
-  vertical-align: middle;
 }
 
 p.TV, p.other-exp {
@@ -484,6 +478,7 @@ input:focus {
 }
 
 
+
 /***********************END ALEX CSS***************************/
 
 
@@ -530,7 +525,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   p.invest,
   p.ins,
   p.utilities,
-  /*p.phone,*/
+  p.phone,
   p.parking,
   p.ent,
   p.pet {
