@@ -301,7 +301,7 @@
 				$("input").not(".exclude").sum("keyup", "#expenses");
 
 				//display result of income minus expenses
-				$("input").not(".exclude").subtract({
+				subtract({
 					'bind':"keyup",
 					'selector':"#subtract",
 					'oncalc': function () {
