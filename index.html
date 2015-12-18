@@ -294,7 +294,7 @@
 
 				//added the line below to make income total display immediately
 				//in positive income field
-			$("input[name='sum']").sum("keyup", "#subtract") - document.getElementById('expenses').innerHTML;
+			// $("input[name='sum']").sum("keyup", "#subtract");
 
 				//display the sum of all input fields except monthly income fields
 				//the "exclude" class serves to exclude these fields.
@@ -308,7 +308,7 @@
 						console.log('oncalc');
 						chart.unload({
 							ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
-						});
+						}) + document.getElementById('exclude').innerHTML;
 						chart.load({
 							columns: [
 									['housing', document.getElementById('totalSum2').innerHTML],
