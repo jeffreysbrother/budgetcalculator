@@ -395,16 +395,20 @@
 
 		<!-- C3 CHART-->
 		<script type="text/javascript">
+
+		var col5 = [];//set empty array
+					if (hou || tran || edu || per || sav){
+							col5 = [['housing', hou],
+											['transportation', tran],
+											['educational', edu],
+											['personal', per],
+										  ['savings', sav]]
+					}
+
 			var chart = c3.generate({
 				bindto: '#chart',
 				data: {
-						columns: [
-								['housing', 0],
-								['transportation', 0],
-								['educational', 0],
-								['personal', 0],
-								['savings', 0]
-						],
+						columns: col5,
 						empty: {
 					    label: {
 					      text: "No Data"
