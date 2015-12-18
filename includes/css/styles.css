@@ -16,49 +16,6 @@ body {
   /*border: 2px solid red;*/
 }
 
-div.one {
-  border: 3px solid #ddd;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  /*margin-right: 156px;*/
-  position: relative;
-  vertical-align: middle;
-}
-
-div.line, div.line2 {
-  width: 8%;                   /*changed pixels to percent*/
-  height: 5px;
-  background-color: #ddd;
-  display: inline-block;
-  margin-left: -5px;
-  margin-right: -5px;
-  position: relative;
-}
-
-div.green {
-  background-color: #a2ca07;
-}
-
-div.one.green.gr2 {
-  border: 3px solid #a2ca07;
-}
-
-div.one p {
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-  top: -12px;
-  font-weight: bold;
-  color: #666;
-}
-
-div.one p.green {
-  color: #fff;
-}
-
-
 div.progress div:last-of-type {
   margin-right: 0;
 }
