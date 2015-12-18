@@ -307,15 +307,15 @@
 					'oncalc': function () {
 						console.log('oncalc');
 						chart.unload({
-							ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
+							ids: [ hou, tran, edu, per, sav ]
 						});
 						chart.load({
 							columns: [
-									['housing', document.getElementById('totalSum2').innerHTML],
-									['transportation', document.getElementById('totalSum3').innerHTML],
-									['educational', document.getElementById('totalSum4').innerHTML],
-									['personal', document.getElementById('totalSum5').innerHTML],
-									['savings', document.getElementById('totalSum6').innerHTML]
+									[hou, document.getElementById('totalSum2').innerHTML],
+									[tran, document.getElementById('totalSum3').innerHTML],
+									[edu, document.getElementById('totalSum4').innerHTML],
+									[per, document.getElementById('totalSum5').innerHTML],
+									[sav, document.getElementById('totalSum6').innerHTML]
 							]
 						});
 					}
