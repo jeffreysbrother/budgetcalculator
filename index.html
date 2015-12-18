@@ -305,10 +305,6 @@
 					'bind':"keyup",
 					'selector':"#subtract",
 					'oncalc': function () {
-						console.log('oncalc');
-						chart.unload({
-							ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
-						});
 						chart.load({
 							columns: [
 									['housing', document.getElementById('totalSum2').innerHTML],
