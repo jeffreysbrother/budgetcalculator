@@ -9,13 +9,6 @@ body {
   padding: 0;
 }
 
-
-
-
-/*div.progress div:last-of-type {
-  margin-right: 0;
-}*/
-
 .qbcalc {
   background: #fff;
   border: 2px solid #ddd;
@@ -23,12 +16,9 @@ body {
   position: relative;
   width: 95%;
   max-width: 1024px;
-  /*height: 626px;*/
   height: auto;
   padding: 30px;
   border-radius: 13px;
-
-  /*z-index: -2;*/
 }
 
 .qbcalc h1 {
@@ -46,8 +36,6 @@ div.column1 {
   display: inline-block;
   width: 22%;
   clear: left;
-  /*float: left;*/
-  /*border: 2px solid red;*/
   position: relative;
   top: 7px;
   z-index: 3;
@@ -57,8 +45,6 @@ div.column2 {
   display: inline-block;
   width: 67%;
   float: right;
-  /*clear: right;*/
-  /*border: 2px solid red;*/
 }
 
 .column2 h2 {
@@ -124,7 +110,6 @@ div.positive-income {
   background: -o-linear-gradient(0deg, #a2ca07 90%, #86A607); /*Opera 11.1-12*/
   background: -moz-linear-gradient(0deg, #a2ca07 90%, #86A607); /*Fx 3.6-15*/
   background: linear-gradient(0deg, #a2ca07 90%, #86A607); /*Standard*/
-
   border-radius: 9px;
   padding-top: 11px;
   padding-bottom: 11px;
@@ -164,7 +149,6 @@ div.positive-income p.value {
   width: 117px;
   text-decoration: none;
   padding: 14px 16px;
-  /*margin-right: 20px;*/
   float: right;
   text-align: center;
   left: -374px;
@@ -187,11 +171,9 @@ div.positive-income p.value {
   position: relative;
   font-weight: bold;
   border: none;
-  /*width: 168px;*/
   width: 117px;
   text-decoration: none;
   padding: 14px 16px;
-  /*margin-right: 20px;*/
   float: left;
   text-align: center;
   bottom: 16px;
@@ -206,10 +188,8 @@ div.positive-income p.value {
   position: relative;
   font-weight: bold;
   border: none;
-  /*width: 168px;*/
   text-decoration: none;
   padding: 14px 38px;
-  /*margin-right: 20px;*/
   margin-left: 173px;
   clear: right;
   bottom: 2px;
@@ -231,10 +211,6 @@ div.column1 td, div.column1 th {
   text-align: left;
   padding: 5px 0;
 }
-
-/*[id^=totalSum].total {
-  padding: 0;
-}*/
 
 div.column1 th,
 div.column1 td {
@@ -475,9 +451,7 @@ input:focus {
 }
 
 
-
 /***********************END ALEX CSS***************************/
-
 
 
 .clearfix:before,
@@ -650,7 +624,6 @@ input:not([type="checkbox"]):not([type="radio"]) {
   }
   /*center chart when viewport is resized and the container expands*/
   div.C3-wrapper {
-    /*width: 426px;*/
     margin: auto;
   }
   div.image-container {
