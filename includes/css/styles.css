@@ -315,7 +315,7 @@ p.TV {
   margin-top: 254px;
 }
 
-p.utilities {
+p.utilities, p.other-exp {
   margin-left: 378px;
   margin-top: 179px;
 }
@@ -330,7 +330,7 @@ p.ins, p.car-repair, p.med {
   margin-top: 103px;
 }
 
-p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent, p.other-exp {
+p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent {
   margin-left: 12px;
   margin-top: 103px;
 }
