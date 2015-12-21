@@ -310,27 +310,27 @@ p.phone {
   margin-top: 254px;
 }
 
-p.TV, p.other-exp {
+p.TV {
   margin-left: 12px;
   margin-top: 254px;
 }
 
-p.utilities, p.pet {
+p.utilities {
   margin-left: 378px;
   margin-top: 179px;
 }
 
-p.repairs, p.med {
+p.repairs, p.pet {
   margin-left: 12px;
   margin-top: 179px;
 }
 
-p.ins, p.car-repair {
+p.ins, p.car-repair, p.med {
   margin-left: 378px;
   margin-top: 103px;
 }
 
-p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent {
+p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent, p.other-exp {
   margin-left: 12px;
   margin-top: 103px;
 }
