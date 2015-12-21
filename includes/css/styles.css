@@ -430,8 +430,7 @@ input:focus {
   background: #a2ca07;
 
 }
-.prog .active a,
-.prog .completed a {
+.prog .active a {
   background: #a2ca07;
   color: #fff;
   border: none;
