@@ -332,8 +332,8 @@
           if ( !$(this).parent().hasClass('active')) {
             $(this).parent().addClass('active')
             .siblings('.active')
-            .removeClass('active')
-            .addClass('completed');
+            .removeClass('active');
+            // .addClass('completed');
 
             // also switch panels
             var tar = $(this).attr('href');
