@@ -479,6 +479,13 @@ input:not([type="checkbox"]):not([type="radio"]) {
   -webkit-appearance: none;
 }
 
+::-ms-clear,
+::-ms-reveal {
+  width : 0;
+  height: 0;
+}
+
+
 
 /******************MEDIA QUERIES***************************/
 
