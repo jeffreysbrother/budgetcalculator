@@ -447,12 +447,14 @@
 			});
 		</script>
 
+		<!-- change background color of INCOME box when user has negative income -->
 		<script type="text/javascript">
-			// $('.positive-income')
-			var n = $('#subtract').val();
-			if (n < 0) {
-				$('.positive-income').css("background", "red");
-			}
+			$( document ).ready(function() {
+				var n = $('#subtract').val();
+				if (n < 0) {
+					$('.positive-income').css("background", "red");
+				}
+			});
 		</script>
 
 	</body>
