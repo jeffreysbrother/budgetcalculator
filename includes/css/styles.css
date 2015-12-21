@@ -497,9 +497,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   p.ins,
   p.utilities,
   p.phone,
-  p.car-repair,
-  p.ent,
-  p.pet {
+  p.car-repair {
     margin-left: 329px;
   }
   input {
