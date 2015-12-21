@@ -479,6 +479,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   -webkit-appearance: none;
 }
 
+/*this gets rid of the giant X in Internet Explorer input fields*/
 ::-ms-clear,
 ::-ms-reveal {
   width : 0;
