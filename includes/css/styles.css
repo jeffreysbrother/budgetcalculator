@@ -276,7 +276,7 @@ p.phone,
 p.car,
 p.car-ins,
 p.gas,
-p.parking,
+p.car-repair,
 p.school,
 p.loans,
 p.tuition,
@@ -325,7 +325,7 @@ p.repairs, p.med {
   margin-top: 179px;
 }
 
-p.ins, p.parking, p.ent {
+p.ins, p.car-repair, p.ent {
   margin-left: 378px;
   margin-top: 103px;
 }
@@ -497,7 +497,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   p.ins,
   p.utilities,
   p.phone,
-  p.parking,
+  p.car-repair,
   p.ent,
   p.pet {
     margin-left: 329px;
