@@ -325,12 +325,12 @@ p.repairs, p.med {
   margin-top: 179px;
 }
 
-p.ins, p.car-repair, p.ent {
+p.ins, p.car-repair {
   margin-left: 378px;
   margin-top: 103px;
 }
 
-p.rent, p.gas, p.tuition, p.laundry, p.retire {
+p.rent, p.gas, p.tuition, p.laundry, p.retire, p.ent {
   margin-left: 12px;
   margin-top: 103px;
 }
