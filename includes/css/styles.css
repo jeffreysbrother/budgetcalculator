@@ -258,7 +258,7 @@ input {
   padding-right: 9px;
 }
 
-input[type="number"] {
+input[type="text"] {
   text-align: right;
   margin-bottom: 9px;
 }
@@ -486,9 +486,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   height: 0;
 }
 
-.c3-text.c3-empty {
-  opacity: 1;
-}
+
 
 /******************MEDIA QUERIES***************************/
 
@@ -606,7 +604,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
     margin-bottom: 24px;
     padding: 14px 16px;
   }
-  input[type="number"] {
+  input[type="text"] {
     text-align: left;
     text-indent: 10px;
     padding-right: 0;
