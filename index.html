@@ -452,7 +452,7 @@
 
 				var n;
 
-				$( "#subtract" ).text().change(function() {
+				$( "#subtract" ).bind("DOMSubtreeModified", function() {
 
 					n = $('#subtract').text();
 
