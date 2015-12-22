@@ -519,6 +519,7 @@ div.redundant-section {
   position: relative;
   width: 95%;
   max-width: 1024px;
+  height: 300px;
 }
 
 div.redundant-section div.left-image {
