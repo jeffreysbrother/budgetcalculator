@@ -419,16 +419,18 @@
 				donut: {
 					width: 53
 				}
+
+				d3.select('text').filter('.c3-text.c3-empty')
+		.style("text-anchor", "middle")
+		.style("dominant-baseline", "middle")
+		.style("opacity", 1)
+		.attr("font-size", "20px")
+		.attr("font-family", "sans-serif")
+		.attr("fill", "red")
+		.text("No data found.");
 			});
 
-			d3.select('text').filter('.c3-text.c3-empty')
-  .style("text-anchor", "middle")
-  .style("dominant-baseline", "middle")
-  .style("opacity", 1)
-  .attr("font-size", "20px")
-  .attr("font-family", "sans-serif")
-  .attr("fill", "red")
-  .text("No data found.");
+
 
 		</script>
 
