@@ -461,10 +461,20 @@
 				// 	});
 				// }
 
-				$("span#subtract:contains('-')").css({
-					"background-color": "red",
-					"background": "red"
-				});
+				// $("span#subtract:contains('-')").css({
+				// 	"background-color": "red",
+				// 	"background": "red"
+				// });
+
+				var value1 = $('#totalSum').val();
+				var value2 = $('#expenses').val();
+
+				if (value1 < value2) {
+						$('.positive-income').css({
+							"background-color": "red",
+							"background": "red"
+						});
+				}
 		</script>
 
 	</body>
