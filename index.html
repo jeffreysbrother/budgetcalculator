@@ -451,7 +451,7 @@
 		<script type="text/javascript">
 
 
-				// kinda working, but deprecated
+				// working, but DOMSubtreeModified is deprecated (says the documentation)
 
 				$( "#subtract" ).bind("DOMSubtreeModified", function() {
 
@@ -462,6 +462,7 @@
 							"background-color": "red",
 							"background": "red"
 						});
+						//this returns the background to its normal green
 					} else {
 						$('.positive-income').css({
 							"background-color": "#a2ca07",
