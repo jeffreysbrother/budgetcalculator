@@ -485,9 +485,9 @@
 		    this.observer = new MutationObserver( function(mutations) {
 		        alert('Paragraph changed!')
 		    }.bind(this));
-		    this.observer.observe(test.get(0), {characterData: true, childList: true});
+		    this.observer.observe(n.get(0), {characterData: true, childList: true});
 		});
-		
+
 
 
 				// var n = $('#subtract').text();
