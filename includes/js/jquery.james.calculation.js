@@ -323,8 +323,6 @@
                 // subtract an array (custom function added by James Cool)
                 subtract: function (a, b){
 
-                        var n;
-
                         var a = document.getElementById('totalSum').innerHTML;
                         var b = document.getElementById('expenses').innerHTML;
 
