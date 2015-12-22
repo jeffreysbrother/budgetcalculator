@@ -496,6 +496,13 @@ input {
   box-shadow: none;
 }
 
+.seo-section {
+  margin: 40px auto;
+  position: relative;
+  width: 95%;
+  max-width: 1024px;
+}
+
 
 
 /******************MEDIA QUERIES***************************/
