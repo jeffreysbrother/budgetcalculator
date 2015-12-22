@@ -468,44 +468,18 @@
 				// });
 
 
-				$(function(){
-    		//Store the test paragraph node
-		    var n = $('#subtract').text();
+				$(document).on('change', 'span', function(){
 
-		    //Function to change the paragraph
-		    var changeParagraph = function () {
-		        var d = new Date();
-		        var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
-		        n.text(time);
-		    };
+					var n = $('#subtract').text();
 
-		    //Bind the paragraph changing event
-		    $('#subtract').on('change', changeParagraph);
+					if (n < 0) {
+						$('.positive-income').css({
+							"background-color": "red",
+							"background": "red"
+						});
+					}
 
-		    //Observe the paragraph
-		    this.observer = new MutationObserver( function(mutations) {
-		        alert('Paragraph changed!')
-		    }.bind(this));
-		    this.observer.observe(n.get(0), {characterData: true, childList: true});
-		});
-
-
-
-				// var n = $('#subtract').text();
-				//
-				// if (n < 0) {
-				// 	$('.positive-income').css({
-				// 		"background-color": "red",
-				// 		"background": "red"
-				// 	});
-				// } else {
-				// 	$('.positive-income').css({
-				// 		"background-color": "green",
-				// 		"background": "green"
-				// 	});
-				// }
-
-
+				});
 
 
 				// $("span#subtract:contains('-')").css({
