@@ -466,8 +466,8 @@
 				// 	"background": "red"
 				// });
 
-				var value1 = $('#totalSum').val();
-				var value2 = $('#expenses').val();
+				var value1 = parseInt($('#totalSum').val());
+				var value2 = parseInt($('#expenses').val());
 
 				if (value1 < value2) {
 						$('.positive-income').css({
