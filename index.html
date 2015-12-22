@@ -274,13 +274,6 @@
 
 		<!-- calculation JS -->
 		<script type="text/javascript">
-
-			var var_hous;
-			var var_trans;
-			var var_edu;
-			var var_sav;
-			var var_pers;
-
 			$( document ).ready(function() {
 
 				//sum inputs and display resulting value in table with appropriate ID
@@ -300,16 +293,17 @@
 					'bind':"keyup",
 					'selector':"#subtract",
 					'oncalc': function () {
+						// console.log('oncalc');
 						chart.unload({
 							ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
 						});
 						chart.load({
 							columns: [
-									[var_hous, document.getElementById('totalSum2').innerHTML],
-									[var_trans, document.getElementById('totalSum3').innerHTML],
-									[var_edu, document.getElementById('totalSum4').innerHTML],
-									[var_pers, document.getElementById('totalSum5').innerHTML],
-									[var_sav, document.getElementById('totalSum6').innerHTML]
+									['housing', document.getElementById('totalSum2').innerHTML],
+									['transportation', document.getElementById('totalSum3').innerHTML],
+									['educational', document.getElementById('totalSum4').innerHTML],
+									['personal', document.getElementById('totalSum5').innerHTML],
+									['savings', document.getElementById('totalSum6').innerHTML]
 							]
 						});
 					}
@@ -389,21 +383,16 @@
 		<!-- C3 CHART-->
 		<script type="text/javascript">
 
-		var col5 = [];//set empty array
-					if (var_hous || var_trans || var_edu || var_sav || var_pers){
-							col5 = [
-									['housing', var_hous],
-									['transportation', var_trans],
-									['educational', var_edu],
-									['personal', var_pers],
-									['savings', var_sav]
-							]
-					}
-
 			var chart = c3.generate({
 				bindto: '#chart',
 				data: {
-						columns: col5,
+						columns: [
+								['housing', var_hous],
+								['transportation', var_trans],
+								['educational', var_edu],
+								['personal', var_pers],
+								['savings', var_sav]
+						],
 						empty: {
 					    label: {
 					      text: "No Data"
