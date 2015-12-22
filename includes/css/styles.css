@@ -486,6 +486,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
   height: 0;
 }
 
+/*TWO RULES BELOW: trying to get rid of the input shadows in android FireFox -- does not work*/
 ::-moz-focus-inner {
     border: 0;
     padding: 0;
