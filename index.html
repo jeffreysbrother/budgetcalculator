@@ -486,8 +486,8 @@
 
 
 
-				value1 = $("input[name='sum']").sum();
-				value2 = $("input").not(".exclude").sum();
+				value1 = $("input[name='sum']").sum().val();
+				value2 = $("input").not(".exclude").sum().val();
 
 				if (value1 < value2) {
 						$('.positive-income').css({
