@@ -299,11 +299,11 @@
 						});
 						chart.load({
 							columns: [
-									['housing', document.getElementById('totalSum2').innerHTML],
-									['transportation', document.getElementById('totalSum3').innerHTML],
-									['educational', document.getElementById('totalSum4').innerHTML],
-									['personal', document.getElementById('totalSum5').innerHTML],
-									['savings', document.getElementById('totalSum6').innerHTML]
+									[var_hous, document.getElementById('totalSum2').innerHTML],
+									[var_trans, document.getElementById('totalSum3').innerHTML],
+									[var_edu, document.getElementById('totalSum4').innerHTML],
+									[var_pers, document.getElementById('totalSum5').innerHTML],
+									[var_sav, document.getElementById('totalSum6').innerHTML]
 							]
 						});
 					}
@@ -382,15 +382,24 @@
 
 		<!-- C3 CHART-->
 		<script type="text/javascript">
+
+		// var col5 = [];//set empty array
+		// 			if (resi || com || agri || other_sec){
+		// 					col5 = [['Residential', resi],
+		// 									['Commercial and public services', com],
+		// 									['Agriculture/forestry', agri],
+		// 									['Other', other_sec]]
+		// 			}
+
 			var chart = c3.generate({
 				bindto: '#chart',
 				data: {
 						columns: [
-								['housing', 0],
-								['transportation', 0],
-								['educational', 0],
-								['personal', 0],
-								['savings', 0]
+								['housing', var_hous],
+								['transportation', var_trans],
+								['educational', var_edu],
+								['personal', var_pers],
+								['savings', var_sav]
 						],
 						empty: {
 					    label: {
