@@ -300,9 +300,9 @@
 					'bind':"keyup",
 					'selector':"#subtract",
 					'oncalc': function () {
-						// chart.unload({
-						// 	ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
-						// });
+						chart.unload({
+							ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
+						});
 						chart.load({
 							columns: [
 									[var_hous, document.getElementById('totalSum2').innerHTML],
