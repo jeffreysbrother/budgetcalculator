@@ -497,7 +497,7 @@ input {
 }
 
 .seo-section {
-  margin: 40px auto;
+  margin: 50px auto;
   position: relative;
   width: 95%;
   max-width: 1024px;
@@ -505,6 +505,7 @@ input {
 
 .seo-section p {
   font-size: 14px;
+  color: #333;
 }
 
 
