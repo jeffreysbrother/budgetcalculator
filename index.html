@@ -466,11 +466,11 @@
 				// 	}
 				//
 				// });
+				var n;
 
+				$(document).on('change', '#subract', function(){
 
-				$("#subtract").on('change', '#subract', function(){
-
-					var n = $('#subtract').text();
+					n = $('#subtract').text();
 
 					if (n < 0) {
 						$('.positive-income').css({
