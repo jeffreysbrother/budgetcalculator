@@ -514,7 +514,22 @@ input {
   margin: 0;
 }
 
+div.redundant-section {
+  margin: 25px auto;
+  position: relative;
+  width: 95%;
+  max-width: 1024px;
+}
 
+div.redundant-section div.left-image {
+  width: 30%;
+  display: inline-block;
+}
+
+div.redundant-section div.right-text {
+  width: 70%;
+  display: inline-block;
+}
 
 /******************MEDIA QUERIES***************************/
 
