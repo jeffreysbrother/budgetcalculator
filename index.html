@@ -382,16 +382,15 @@
 
 		<!-- C3 CHART-->
 		<script type="text/javascript">
-
 			var chart = c3.generate({
 				bindto: '#chart',
 				data: {
 						columns: [
-								['housing', var_hous],
-								['transportation', var_trans],
-								['educational', var_edu],
-								['personal', var_pers],
-								['savings', var_sav]
+								['housing', 0],
+								['transportation', 0],
+								['educational', 0],
+								['personal', 0],
+								['savings', 0]
 						],
 						empty: {
 					    label: {
@@ -421,8 +420,6 @@
 					width: 53
 				}
 			});
-
-
 
 		</script>
 
