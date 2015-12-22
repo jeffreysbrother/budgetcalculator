@@ -461,13 +461,33 @@
 				// 	});
 				// }
 
+
+
+
 				// $("span#subtract:contains('-')").css({
 				// 	"background-color": "red",
 				// 	"background": "red"
 				// });
 
-				var value1 = parseInt($('#totalSum').html());
-				var value2 = parseInt($('#expenses').html());
+
+
+
+				// var value1 = parseInt($('#totalSum').html());
+				// var value2 = parseInt($('#expenses').html());
+				//
+				// if (value1 < value2) {
+				// 		$('.positive-income').css({
+				// 			"background-color": "red",
+				// 			"background": "red"
+				// 		});
+				// }
+
+
+
+
+
+				value1 = $("input[name='sum']").sum();
+				value2 = $("input").not(".exclude").sum();
 
 				if (value1 < value2) {
 						$('.positive-income').css({
@@ -475,6 +495,7 @@
 							"background": "red"
 						});
 				}
+
 		</script>
 
 	</body>
