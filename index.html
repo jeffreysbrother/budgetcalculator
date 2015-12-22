@@ -452,9 +452,25 @@
 
 
 				// kinda working, but deprecated
+
+				$( "#subtract" ).bind("DOMSubtreeModified", function() {
+
+					var n = $('#subtract').text();
+
+					if (n < 0) {
+						$('.positive-income').css({
+							"background-color": "red",
+							"background": "red"
+						});
+					}
+
+				});
+
+
+
 				// var n;
 				//
-				// $( "#subtract" ).bind("DOMSubtreeModified", function() {
+				// $(document).on('change', 'input', function(){
 				//
 				// 	n = $('#subtract').text();
 				//
@@ -463,24 +479,10 @@
 				// 			"background-color": "red",
 				// 			"background": "red"
 				// 		});
+				// 		console.log("hello");
 				// 	}
 				//
 				// });
-				var n;
-
-				$(document).on('change', 'input', function(){
-
-					n = $('#subtract').text();
-
-					if (n < 0) {
-						$('.positive-income').css({
-							"background-color": "red",
-							"background": "red"
-						});
-						console.log("hello");
-					}
-
-				});
 
 
 				// $("span#subtract:contains('-')").css({
