@@ -258,7 +258,7 @@ input {
   padding-right: 9px;
 }
 
-input[type="text"] {
+input[type="number"] {
   text-align: right;
   margin-bottom: 9px;
 }
@@ -606,7 +606,7 @@ input:not([type="checkbox"]):not([type="radio"]) {
     margin-bottom: 24px;
     padding: 14px 16px;
   }
-  input[type="text"] {
+  input[type="number"] {
     text-align: left;
     text-indent: 10px;
     padding-right: 0;
