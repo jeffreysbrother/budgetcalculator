@@ -449,17 +449,22 @@
 
 		<!-- change background color of INCOME box when user has negative income -->
 		<script type="text/javascript">
-				if (parseInt($('#subtract').html()) < 0) {
-					$('.positive-income').css({
-						"background-color": "red",
-						"background": "red"
-					});
-				} else {
-					$('.positive-income').css({
-						"background-color": "green",
-						"background": "green"
-					});
-				}
+				// if (parseInt($('#subtract').html()) < 0) {
+				// 	$('.positive-income').css({
+				// 		"background-color": "red",
+				// 		"background": "red"
+				// 	});
+				// } else {
+				// 	$('.positive-income').css({
+				// 		"background-color": "green",
+				// 		"background": "green"
+				// 	});
+				// }
+
+				$('#subtract'):contains('-').css({
+					"background-color": "red",
+					"background": "red"
+				});
 		</script>
 
 	</body>
