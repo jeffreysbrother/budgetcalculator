@@ -450,9 +450,7 @@
 		<!-- change background color of INCOME box when user has negative income -->
 		<script type="text/javascript">
 
-
 				// working, but DOMSubtreeModified is deprecated (says the documentation)
-
 				$( "#subtract" ).bind("DOMSubtreeModified", function() {
 
 					var n = $('#subtract').text();
@@ -475,56 +473,6 @@
 
 				});
 
-
-
-				// var n;
-				//
-				// $(document).on('change', 'input', function(){
-				//
-				// 	n = $('#subtract').text();
-				//
-				// 	if (n < 0) {
-				// 		$('.positive-income').css({
-				// 			"background-color": "red",
-				// 			"background": "red"
-				// 		});
-				// 		console.log("hello");
-				// 	}
-				//
-				// });
-
-
-				// $("span#subtract:contains('-')").css({
-				// 	"background-color": "red",
-				// 	"background": "red"
-				// });
-
-
-
-
-				// var value1 = parseInt($('#totalSum').html());
-				// var value2 = parseInt($('#expenses').html());
-				//
-				// if (value1 < value2) {
-				// 		$('.positive-income').css({
-				// 			"background-color": "red",
-				// 			"background": "red"
-				// 		});
-				// }
-
-
-
-
-
-				// var value1 = $("input[name='sum']").sum();
-				// var value2 = $("input").not(".exclude").sum();
-				//
-				// if (value1 < value2) {
-				// 		$('.positive-income').css({
-				// 			"background-color": "red",
-				// 			"background": "red"
-				// 		});
-				// }
 
 		</script>
 
