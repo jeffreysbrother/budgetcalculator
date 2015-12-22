@@ -503,6 +503,10 @@ input {
   max-width: 1024px;
 }
 
+.seo-section p {
+  font-size: 14px;
+}
+
 
 
 /******************MEDIA QUERIES***************************/
