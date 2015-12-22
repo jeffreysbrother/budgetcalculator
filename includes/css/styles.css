@@ -486,7 +486,9 @@ input:not([type="checkbox"]):not([type="radio"]) {
   height: 0;
 }
 
-
+.c3-text.c3-empty {
+  opacity: 1;
+}
 
 /******************MEDIA QUERIES***************************/
 
