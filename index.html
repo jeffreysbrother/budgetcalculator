@@ -450,20 +450,43 @@
 		<!-- change background color of INCOME box when user has negative income -->
 		<script type="text/javascript">
 
-				var n;
 
-				$( "#subtract" ).bind("DOMSubtreeModified", function() {
+				// kinda working, but deprecated
+				// var n;
+				//
+				// $( "#subtract" ).bind("DOMSubtreeModified", function() {
+				//
+				// 	n = $('#subtract').text();
+				//
+				// 	if (n < 0) {
+				// 		$('.positive-income').css({
+				// 			"background-color": "red",
+				// 			"background": "red"
+				// 		});
+				// 	}
+				//
+				// });
 
-					n = $('#subtract').text();
+				$(function(){
+    		//Store the test paragraph node
+		    var n = $('#subtract').text();
 
-					if (n < 0) {
-						$('.positive-income').css({
-							"background-color": "red",
-							"background": "red"
-						});
-					}
+		    //Function to change the paragraph
+		    var changeParagraph = function () {
+		        var d = new Date();
+		        var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+		        n.text(time);
+		    };
 
-				});
+		    //Bind the paragraph changing event
+		    $('#subtract').on('change', changeParagraph);
+
+		    //Observe the paragraph
+		    this.observer = new MutationObserver( function(mutations) {
+		        alert('Paragraph changed!')
+		    }.bind(this));
+		    this.observer.observe(test.get(0), {characterData: true, childList: true});
+		});
 
 
 				// var n = $('#subtract').text();
