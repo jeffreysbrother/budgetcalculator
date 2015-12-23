@@ -526,8 +526,10 @@
 				$( "input" ).bind("DOMSubtreeModified", function() {
 					    if( $(this).val() > 0 ) {
 					          $('.c3-empty').addClass('importantRule');
+										alert('value!');
 					    } else {
 								$('.c3-empty').removeClass('importantRule');
+								alert('none!');
 							}
 				});
 
