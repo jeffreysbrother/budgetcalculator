@@ -612,7 +612,7 @@ div.redundant-section p.count-on-us {
 }
 
 .red-box {
-  border: 2px solid #red;
+  border: 2px solid red;
   border-radius: 5px;
   margin-bottom: 21px;
 }
