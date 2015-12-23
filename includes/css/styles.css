@@ -575,11 +575,12 @@ div.redundant-section p.count-on-us {
 }
 
 .contain-excess {
-  display: inherit;
+  display: none;
   width: 118%;
 }
 
-.contain-excess h1 {
+.contain-excess h1,
+.contain-congrats h1 {
   font-size: 2em;
 }
 
@@ -593,7 +594,7 @@ div.redundant-section p.count-on-us {
 }
 
 .contain-congrats {
-  display: none;
+  display: inherit;
 }
 /******************END DYNAMIC LAST PANEL***************************/
 
