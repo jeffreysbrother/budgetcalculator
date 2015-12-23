@@ -522,9 +522,21 @@
 							"background-color": "red",
 							"background": "red"
 						});
-						$('.contain-congrats').css("display", "inherit");
+						$('.contain-excess').css("display", "block");
+						$('.contain-congrats').css("display", "none");
 						$('.contain-original').css("display", "none");
 						//this returns the background to its normal green
+					} else if (n == 0){
+						$('.positive-income').css({
+							"background-color": "#a2ca07",
+							"background": "-webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607)",
+							"background": "-o-linear-gradient(0deg, #a2ca07 90%, #86A607)",
+							"background": "-moz-linear-gradient(0deg, #a2ca07 90%, #86A607)",
+							"background": "linear-gradient(0deg, #a2ca07 90%, #86A607)"
+						});
+						$('.contain-excess').css("display", "none");
+						$('.contain-congrats').css("display", "none");
+						$('.contain-original').css("display", "block");
 					} else {
 						$('.positive-income').css({
 							"background-color": "#a2ca07",
@@ -533,6 +545,9 @@
 							"background": "-moz-linear-gradient(0deg, #a2ca07 90%, #86A607)",
 							"background": "linear-gradient(0deg, #a2ca07 90%, #86A607)"
 						});
+						$('.contain-excess').css("display", "none");
+						$('.contain-congrats').css("display", "block");
+						$('.contain-original').css("display", "none");
 					}
 				});
 
