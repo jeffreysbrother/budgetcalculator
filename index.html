@@ -513,12 +513,12 @@
 
 
 				// script for hiding the NO DATA message
-				$('input').not(".exclude").bind("DOMSubtreeModified", function() {
-				    if( $(this).val() ) {
-				          $('text.c3-empty').css('display', 'none');
+				$('input').not(".exclude").keyup(function() {
+				    if ( $(this).val() ) {
+				        $('text.c3-empty').css('display', 'none');
 				    }
 						else {
-									$('text.c3-empty').css('display', 'inherit');
+								$('text.c3-empty').css('display', 'inherit');
 						}
 				});
 
