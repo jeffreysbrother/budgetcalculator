@@ -547,6 +547,7 @@ div.redundant-section div.left-image img.whats-new-hero-2 {
   margin-left: 0;
   display: inline-block;
   margin-top: 15px;
+  z-index: inherit;
 }
 
 hr {
