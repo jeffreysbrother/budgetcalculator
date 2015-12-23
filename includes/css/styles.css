@@ -561,6 +561,10 @@ div.redundant-section p.count-on-us {
   opacity: 1 !important;
 }*/
 
+.importantRule {
+  opacity: 1 !important;
+}
+
 /******************MEDIA QUERIES***************************/
 
 
