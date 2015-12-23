@@ -667,8 +667,13 @@ div.redundant-section p.count-on-us {
     max-width: 362px;
   }
 
+/*this resets the max-width property in small viewports*/
   .contain-excess .header-wrapper {
     max-width: inherit;
+  }
+
+  .contain-excess {
+    width: inherit;
   }
 }
 
