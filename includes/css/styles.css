@@ -666,6 +666,10 @@ div.redundant-section p.count-on-us {
     width: 85%;
     max-width: 362px;
   }
+
+  .header-wrapper {
+    max-width: inherit;
+  }
 }
 
 /*main media queries: buttons, inputs set to 100% width*/
