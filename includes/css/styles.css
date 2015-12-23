@@ -529,7 +529,7 @@ div.redundant-section div.left-image {
 }
 
 div.redundant-section div.right-text {
-  width:57%;
+  width:62%;
   display: inline-block;
   height: 166px;
   vertical-align: top;
@@ -544,6 +544,7 @@ div.redundant-section div.left-image img.whats-new-hero-2 {
 
 .compare-mod {
   margin-left: 0;
+  display: inline-block;
 }
 
 /******************MEDIA QUERIES***************************/
