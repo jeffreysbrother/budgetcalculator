@@ -667,7 +667,7 @@ div.redundant-section p.count-on-us {
     max-width: 362px;
   }
 
-  .header-wrapper {
+  .contain-excess .header-wrapper {
     max-width: inherit;
   }
 }
