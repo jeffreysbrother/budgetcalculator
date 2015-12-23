@@ -608,7 +608,24 @@ div.redundant-section p.count-on-us {
   font-size: 15px;
   text-align: center;
   margin: 0;
+  padding: 5px;
 }
+
+.red-box {
+  border: 2px solid #red;
+  border-radius: 5px;
+  margin-bottom: 21px;
+}
+
+.red-box p {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+
 /******************END DYNAMIC LAST PANEL***************************/
 
 
