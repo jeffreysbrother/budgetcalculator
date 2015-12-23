@@ -513,6 +513,10 @@ input {
   margin: 0;
 }
 
+.seo-section {
+  border-top: 1px solid #666;
+}
+
 div.redundant-section {
   margin: 25px auto;
   position: relative;
@@ -548,10 +552,6 @@ div.redundant-section div.left-image img.whats-new-hero-2 {
   margin-top: 15px;
   z-index: inherit;
   margin-bottom: 20px;
-}
-
-hr {
-  color: #ddd;
 }
 
 /******************MEDIA QUERIES***************************/
@@ -714,9 +714,7 @@ hr {
   div.redundant-section div.right-text {
     width: 100%;
   }
-  hr {
-    display: none;
-  }
+
   .compare-mod {
     display: inline-block;
   }
