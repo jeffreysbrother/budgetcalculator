@@ -575,7 +575,7 @@ div.redundant-section p.count-on-us {
 }
 
 .contain-excess {
-  display: none;
+  display: inherit;
   width: 118%;
 }
 
@@ -594,7 +594,7 @@ div.redundant-section p.count-on-us {
 }
 
 .contain-congrats {
-  display: inherit;
+  display: none;
 }
 
 .green-box {
