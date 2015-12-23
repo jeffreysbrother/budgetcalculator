@@ -515,7 +515,7 @@
 
 				$('input').keyup(function()
 				{
-				    if( !$(this).val() ) {
+				    if( $(this).val() ) {
 				          $('.c3-empty').addClass('importantRule');
 				    } else {
 							$('.c3-empty').removeClass('importantRule');
