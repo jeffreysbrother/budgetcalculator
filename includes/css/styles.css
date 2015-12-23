@@ -523,17 +523,18 @@ div.redundant-section {
 }
 
 div.redundant-section div.left-image {
-  width: 32%;
+  width: 34%;
   display: inline-block;
   height: 100%;
 }
 
 div.redundant-section div.right-text {
-  width: 64%;
+  width:57%;
   display: inline-block;
   height: 166px;
   vertical-align: top;
   /*margin-top: 50px;*/
+  margin-right: 15px;
 }
 
 div.redundant-section div.left-image img.whats-new-hero-2 {
