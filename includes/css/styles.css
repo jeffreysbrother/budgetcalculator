@@ -718,5 +718,8 @@ hr {
   hr {
     display: none;
   }
+  .compare-mod {
+    display: inline-block;
+  }
 
 }
