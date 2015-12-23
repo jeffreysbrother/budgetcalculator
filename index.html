@@ -515,11 +515,11 @@
 
 				$('input').not(".exclude").keyup(function()
 				{
-				    if( $(this).val() ) {
+				    if( $(this).val() > 0 ) {
 				          $('text.c3-empty').css('display', 'none');
 				    }
 						else {
-									$('text.c3-empty').css('display', 'block');
+									$('text.c3-empty').css('display', 'inherit');
 						}
 				});
 
