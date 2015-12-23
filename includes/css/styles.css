@@ -498,6 +498,7 @@ input {
 
 .seo-section {
   margin: 50px auto;
+  position: relative;
   width: 95%;
   max-width: 1024px;
 }
@@ -515,9 +516,10 @@ input {
 
 div.redundant-section {
   margin: 25px auto;
+  position: relative;
   width: 95%;
   max-width: 1024px;
-  height: auto;
+  height: 243px;
 }
 
 div.redundant-section div.left-image {
