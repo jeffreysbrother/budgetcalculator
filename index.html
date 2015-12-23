@@ -508,13 +508,12 @@
 							"background": "linear-gradient(0deg, #a2ca07 90%, #86A607)"
 						});
 					}
-
 				});
 
 
 
-				$('input').not(".exclude").keyup(function()
-				{
+				// script for hiding the NO DATA message
+				$('input').not(".exclude").bind("DOMSubtreeModified", function() {
 				    if( $(this).val() ) {
 				          $('text.c3-empty').css('display', 'none');
 				    }
