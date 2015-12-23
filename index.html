@@ -454,11 +454,11 @@
 								['personal', 0],
 								['savings', 0]
 						],
-						empty: {
-					    label: {
-					      text: "No Expenses"
-					    }
-					  },
+						// empty: {
+					  //   label: {
+					  //     text: "No Expenses"
+					  //   }
+					  // },
 						labels: true,
 						type : 'donut'
 				},
@@ -557,11 +557,14 @@
 				// script for hiding the NO DATA message
 				$('input').not(".exclude").keyup(function() {
 				    if ( $(this).val() ) {
-				        $('text.c3-empty').css('display', 'none');
+				        // $('text.c3-empty').css('display', 'none');
 								$('.image-container').removeClass('demo-chart');
 				    }
 						else {
-								$('text.c3-empty').css('display', 'inherit');
+								// $('text.c3-empty').css('display', 'inherit');
+								if (!$('.image.container')).hasClass('demo-chart') {
+									$('.image-container').addClass('demo-chart');
+								}
 						}
 				});
 
