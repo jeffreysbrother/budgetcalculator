@@ -90,6 +90,9 @@ span.reddish {
   z-index: 1;
   height: 186px;         /*added height value when C3 was implemented*/
 }
+.image-container.demo-chart {
+  background: url(../img/chart.png) no-repeat center center;
+}
 
 .image-container img {
   position: relative;
