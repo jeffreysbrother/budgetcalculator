@@ -506,15 +506,13 @@ input {
   font-size: 14px;
   color: #444;
   margin-top: 0;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
 }
 
 .seo-section h4 {
   color: #444;
   margin: 0;
-}
-
-.seo-section {
-  border-top: 1px solid #666;
 }
 
 div.redundant-section {
