@@ -513,25 +513,25 @@
 
 
 
-				// $('input').keyup(function()
-				// {
-				//     if( !$(this).val() ) {
-				//           $('.c3-empty').addClass('importantRule');
-				//     } else {
-				// 			$('.c3-empty').removeClass('importantRule');
-				// 		}
-				// });
-
-
-				$( "input" ).bind("DOMSubtreeModified", function() {
-					    if( $(this).val() > 0 ) {
-					          $('.c3-empty').addClass('importantRule');
-										alert('value!');
-					    } else {
-								$('.c3-empty').removeClass('importantRule');
-								alert('none!');
-							}
+				$('input').keyup(function()
+				{
+				    if( !$(this).val() ) {
+				          $('.c3-empty').addClass('importantRule');
+				    } else {
+							$('.c3-empty').removeClass('importantRule');
+						}
 				});
+
+
+				// $( "input" ).bind("DOMSubtreeModified", function() {
+				// 	    if( $(this).val() > 0 ) {
+				// 	          $('.c3-empty').addClass('importantRule');
+				// 						alert('value!');
+				// 	    } else {
+				// 				$('.c3-empty').removeClass('importantRule');
+				// 				alert('none!');
+				// 			}
+				// });
 
 		</script>
 
