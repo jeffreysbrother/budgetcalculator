@@ -563,6 +563,8 @@ div.redundant-section p.count-on-us {
 
 .importantRule {
   opacity: 0 !important;
+  z-index: -10;
+  margin-right: 800px;
 }
 
 /******************MEDIA QUERIES***************************/
