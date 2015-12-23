@@ -576,6 +576,20 @@ div.redundant-section p.count-on-us {
 
 .contain-excess {
   display: inherit;
+  width: 118%;
+}
+
+.contain-excess h1 {
+  font-size: 2em;
+}
+
+.contain-excess h3 {
+  font-weight: 100;
+  color: #333;
+}
+
+.contain-excess .header-wrapper {
+  
 }
 
 .contain-congrats {
