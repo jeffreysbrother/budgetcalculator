@@ -707,14 +707,14 @@ hr {
     height: 314px;
     margin: auto;
   }
-  div.left-image {
+  div.redundant-section div.left-image {
     display: none;
   }
-  div.right-text {
+  div.redundant-section div.right-text {
     width: 100%;
   }
   hr {
     display: none;
   }
-  
+
 }
