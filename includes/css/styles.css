@@ -596,6 +596,18 @@ div.redundant-section p.count-on-us {
 .contain-congrats {
   display: inherit;
 }
+
+.green-box {
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.green-box p {
+  color: green;
+  font-size: 14px;
+}
 /******************END DYNAMIC LAST PANEL***************************/
 
 
