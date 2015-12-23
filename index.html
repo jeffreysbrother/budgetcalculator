@@ -432,7 +432,7 @@
 						],
 						empty: {
 					    label: {
-					      text: "No Data"
+					      text: "No Expenses"
 					    }
 					  },
 						labels: true,
@@ -515,7 +515,7 @@
 
 				$('input').not(".exclude").keyup(function()
 				{
-				    if( $(this).val() > 0 ) {
+				    if( $(this).val() ) {
 				          $('text.c3-empty').css('display', 'none');
 				    }
 						else {
