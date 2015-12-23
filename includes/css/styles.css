@@ -721,5 +721,7 @@ hr {
   .compare-mod {
     display: inline-block;
   }
-
+  .seo-section {
+    margin-top: 45px;
+  }
 }
