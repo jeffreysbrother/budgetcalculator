@@ -525,16 +525,20 @@ div.redundant-section {
 div.redundant-section div.left-image {
   width: 32%;
   display: inline-block;
+  height: 100%;
 }
 
 div.redundant-section div.right-text {
-  width: 61%;
+  width: 64%;
   display: inline-block;
+  height: 166px;
+  vertical-align: top;
+  margin-top: 50px;
 }
 
 div.redundant-section div.left-image img.whats-new-hero-2 {
   display:inline-block;
-  max-width: 327px;
+  width: 90%;
 }
 
 .compare-mod {
