@@ -585,7 +585,7 @@ div.redundant-section p.count-on-us {
 
 .no-bold {
   font-weight: 100;
-  color: #333;
+  color: #333 !important;
 }
 
 .contain-excess .header-wrapper {
