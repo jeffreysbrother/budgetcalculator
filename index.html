@@ -513,10 +513,12 @@
 
 
 
-				if($('.input1').val()) {
-					console.log("hey");
-				}
-
+				$('input').keyup(function()
+				{
+				    if( !$(this).val() ) {
+				          $('text.c3-text.c3-empty').css("opacity", "1");
+				    }
+				});
 
 		</script>
 
