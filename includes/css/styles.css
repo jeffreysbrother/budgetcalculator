@@ -532,6 +532,10 @@ div.redundant-section div.right-text {
   display: inline-block;
 }
 
+div.redundant-section div.left-image img.whats-new-hero-2 {
+  display:inline-block;
+}
+
 /******************MEDIA QUERIES***************************/
 
 
