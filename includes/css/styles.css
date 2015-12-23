@@ -558,7 +558,7 @@ div.redundant-section p.count-on-us {
 }
 
 text.c3-text.c3-empty {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 /******************MEDIA QUERIES***************************/
