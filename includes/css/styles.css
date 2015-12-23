@@ -533,7 +533,7 @@ div.redundant-section div.right-text {
   display: inline-block;
   height: 166px;
   vertical-align: top;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 div.redundant-section div.left-image img.whats-new-hero-2 {
