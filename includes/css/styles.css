@@ -598,15 +598,16 @@ div.redundant-section p.count-on-us {
 }
 
 .green-box {
-  border: 2px solid green;
+  border: 2px solid #a2ca07;
   border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 21px;
 }
 
 .green-box p {
-  color: green;
-  font-size: 14px;
+  color: #a2ca07;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
 }
 /******************END DYNAMIC LAST PANEL***************************/
 
