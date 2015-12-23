@@ -364,9 +364,9 @@
 				});
 
 
-        //progress JS by Alex, modifications by James---------------------------------->
+        //progress JS by Alex---------------------------------->
         $('.prog a').click(function() {
-          if ( !$(this).parent().hasClass('active') && !$(this).parent().hasClass('completed')) {
+          if ( !$(this).parent().hasClass('active') ) {
             $(this).parent().addClass('active')
             .siblings('.active')
             .removeClass('active')
@@ -377,7 +377,6 @@
             $(tar).addClass('active')
               .siblings('.active')
               .removeClass('active')
-							.addClass('completed');
           }
           return false;
       });
