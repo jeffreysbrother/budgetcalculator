@@ -709,6 +709,11 @@ div.redundant-section p.count-on-us {
   .contain-excess {
     width: inherit;
   }
+
+  .red-box p,
+  .green-box p {
+    font-size: 14px;
+  }
 }
 
 /*main media queries: buttons, inputs set to 100% width*/
