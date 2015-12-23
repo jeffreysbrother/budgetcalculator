@@ -583,13 +583,13 @@ div.redundant-section p.count-on-us {
   font-size: 2em;
 }
 
-.contain-excess h3 {
+.no-bold {
   font-weight: 100;
   color: #333;
 }
 
 .contain-excess .header-wrapper {
-  
+  max-width: 251px;
 }
 
 .contain-congrats {
