@@ -545,6 +545,10 @@ div.redundant-section div.left-image img.whats-new-hero-2 {
   width: 90%;
 }
 
+div.redundant-section p.count-on-us {
+  font-size: 17px;
+}
+
 .compare-mod {
   margin-left: 0;
   display: inline-block;
