@@ -707,4 +707,13 @@ hr {
     height: 314px;
     margin: auto;
   }
+  div.left-image {
+    display: none;
+  }
+  div.right-text {
+    width: 100%;
+  }
+  hr {
+    display: none;
+  }
 }
