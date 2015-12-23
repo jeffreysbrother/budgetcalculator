@@ -513,7 +513,7 @@
 
 
 
-				$('input').keyup(function()
+				$('input').not(".exclude").keyup(function()
 				{
 				    if( $(this).val() ) {
 				          $('text.c3-empty').css('display', 'none');
@@ -523,16 +523,6 @@
 						// }
 				});
 
-
-				// $( "input" ).bind("DOMSubtreeModified", function() {
-				// 	    if( $(this).val() > 0 ) {
-				// 	          $('.c3-empty').addClass('importantRule');
-				// 						alert('value!');
-				// 	    } else {
-				// 				$('.c3-empty').removeClass('importantRule');
-				// 				alert('none!');
-				// 			}
-				// });
 
 		</script>
 
