@@ -570,13 +570,17 @@ div.redundant-section p.count-on-us {
 
 
 /********************DYNAMIC LAST PANEL*****************************/
-.contain-original {
+/*.contain-original {
   display: none;
-}
+}*/
 
 .contain-excess {
-  display: inherit;
+  display: none;
   width: 118%;
+}
+
+.contain-congrats {
+  display: none;
 }
 
 .contain-excess h1,
@@ -591,10 +595,6 @@ div.redundant-section p.count-on-us {
 
 .contain-excess .header-wrapper {
   max-width: 251px;
-}
-
-.contain-congrats {
-  display: none;
 }
 
 .green-box {
