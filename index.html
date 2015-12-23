@@ -524,7 +524,7 @@
 
 
 				$( "input" ).bind("DOMSubtreeModified", function() {
-					    if( $(this).val() ) {
+					    if( $(this).val() > 0 ) {
 					          $('.c3-empty').addClass('importantRule');
 					    } else {
 								$('.c3-empty').removeClass('importantRule');
