@@ -557,12 +557,12 @@ div.redundant-section p.count-on-us {
   margin-bottom: 20px;
 }
 
-/*.c3-empty {
+.c3-empty {
   opacity: 1 !important;
-}*/
+}
 
 .importantRule {
-  opacity: 1 !important;
+  opacity: 0 !important;
 }
 
 /******************MEDIA QUERIES***************************/
