@@ -500,14 +500,14 @@ input {
   margin: 0 auto;
   width: 95%;
   max-width: 1024px;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
 }
 
 .seo-section p {
   font-size: 14px;
   color: #444;
   margin-top: 0;
-  border-top: 1px solid #ccc;
-  padding-top: 30px;
 }
 
 .seo-section h4 {
