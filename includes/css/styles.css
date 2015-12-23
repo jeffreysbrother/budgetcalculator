@@ -534,6 +534,7 @@ div.redundant-section div.right-text {
 
 div.redundant-section div.left-image img.whats-new-hero-2 {
   display:inline-block;
+  max-width: 327px;
 }
 
 /******************MEDIA QUERIES***************************/
