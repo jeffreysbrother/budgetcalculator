@@ -277,7 +277,7 @@
 			</table>
 
 					<!-- chart image -->
-					<div class="image-container clearfix">
+					<div class="image-container clearfix demo-chart">
 						<div class="C3-wrapper clearfix">
 							<div id="chart"></div>
 						</div>
@@ -558,6 +558,7 @@
 				$('input').not(".exclude").keyup(function() {
 				    if ( $(this).val() ) {
 				        $('text.c3-empty').css('display', 'none');
+								$('.image-container').removeClass('demo-chart');
 				    }
 						else {
 								$('text.c3-empty').css('display', 'inherit');
