@@ -547,6 +547,10 @@ div.redundant-section div.left-image img.whats-new-hero-2 {
   display: inline-block;
 }
 
+hr {
+  color: #ddd;
+}
+
 /******************MEDIA QUERIES***************************/
 
 
