@@ -498,7 +498,6 @@ input {
 
 .seo-section {
   margin: 0 auto;
-  position: relative;
   width: 95%;
   max-width: 1024px;
 }
@@ -722,6 +721,6 @@ hr {
     display: inline-block;
   }
   .seo-section {
-    margin-top: 45px;
+    margin-top: 65px;
   }
 }
