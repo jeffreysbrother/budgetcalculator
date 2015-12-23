@@ -567,6 +567,25 @@ div.redundant-section p.count-on-us {
   margin-right: 800px;
 }
 
+
+
+/********************DYNAMIC LAST PANEL*****************************/
+.contain-original {
+  display: none;
+}
+
+.contain-excess {
+  display: inherit;
+}
+
+.contain-congrats {
+  display: none;
+}
+/******************END DYNAMIC LAST PANEL***************************/
+
+
+
+
 /******************MEDIA QUERIES***************************/
 
 
