@@ -517,7 +517,10 @@
 				{
 				    if( $(this).val() ) {
 				          $('.c3-empty').addClass('importantRule');
-				    }
+									alert('there is a value');
+				    } else {
+							$('.c3-empty').removeClass('importantRule');
+						}
 				});
 
 		</script>
