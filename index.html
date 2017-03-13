@@ -373,18 +373,24 @@
         // autoNumeric
 					//salary inputs will have $99,999 max (keep in mind this is MONTHLY salary)
 					//all other inputs will have $9,999 max (keep in mind this is MONTHLY expenses)
-        $('input').not('.exclude').autoNumeric('init', {
-          mDec: 0,
-          aSign: '$',
-					vMin: "-9999",
-					vMax: "9999"
-        });
+        // $('input').not('.exclude').autoNumeric('init', {
+        //   mDec: 0,
+        //   aSign: '$',
+				// 	vMin: "-9999",
+				// 	vMax: "9999"
+        // });
 
-				$('.exclude').autoNumeric('init', {
+				$('.qbcalc input').autoNumeric('init', {
 					mDec: 0,
           aSign: '$',
 					vMin: "-99999",
 					vMax: "99999"
+				}).bind('focus', function() {
+	        // if field was blank and then just has '$' in it
+	        if ( jQuery(this).val() == '$' ) {
+	          // sometimes chrome has issue placing cursor before $ so just wipe it
+	          jQuery(this).val('');
+	        }
 				});
 
 
@@ -393,8 +399,9 @@
           if ( !$(this).parent().hasClass('active') ) {
             $(this).parent().addClass('active')
             .siblings('.active')
-            .removeClass('active')
-            .addClass('completed');
+						.removeClass('active');
+						$(this).parent().parent().children().removeClass('completed');
+          	$(this).parent().prevAll().addClass('completed');
 
             // also switch panels
             var tar = $(this).attr('href');
