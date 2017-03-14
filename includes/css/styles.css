@@ -758,11 +758,13 @@ div.redundant-section p.count-on-us {
     margin-left: 0;
     text-align: center;
     display: block;
-    width: 95%;
+    width: 100%;
     left: 0;
     float: none;
     padding-top: 17px;
     padding-bottom: 17px;
+    padding-left: 0;
+    padding-right: 0;
     /*this forces the buttons to sit on top of the tall column1 div*/
     z-index: 5;
   }
@@ -823,5 +825,9 @@ div.redundant-section p.count-on-us {
   }
   .seo-section {
     margin-top: 65px;
+  }
+
+  div.redundant-section {
+    width: inherit;
   }
 }
