@@ -1,4 +1,3 @@
-
   var chart = c3.generate({
     bindto: '#chart',
     data: {
@@ -9,11 +8,6 @@
             ['personal', 0],
             ['savings', 0]
         ],
-        // empty: {
-        //   label: {
-        //     text: "No Expenses"
-        //   }
-        // },
         labels: true,
         type : 'donut'
     },
@@ -23,10 +17,6 @@
       right: 0,
       left: 0
     },
-    // size: {
-    //   height: 200,
-    // 	width: 221
-    // },
     color: {
       pattern: ['#f9c500', '#00a8bc', '#9de031', '#ff00b9', '#ea8800']
     },

@@ -32,14 +32,8 @@ $( document ).ready(function() {
     }
   });
   // autoNumeric
-    //salary inputs will have $99,999 max (keep in mind this is MONTHLY salary)
+    //inputs will have $99,999 max (keep in mind this is MONTHLY salary)
     //all other inputs will have $9,999 max (keep in mind this is MONTHLY expenses)
-  // $('input').not('.exclude').autoNumeric('init', {
-  //   mDec: 0,
-  //   aSign: '$',
-  // 	vMin: "-9999",
-  // 	vMax: "9999"
-  // });
 
   $('.qbcalc input').autoNumeric('init', {
     mDec: 0,
