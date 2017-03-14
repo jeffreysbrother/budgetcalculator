@@ -684,7 +684,9 @@ div.redundant-section p.count-on-us {
     margin: auto;
   }
   .qbcalc {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .last-panel-left h1,

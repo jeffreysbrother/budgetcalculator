@@ -45,7 +45,8 @@ $( document ).ready(function() {
     mDec: 0,
     aSign: '$',
     vMin: "-99999",
-    vMax: "99999"
+    vMax: "99999",
+    lZero: 'deny'
   }).bind('focus', function() {
     // if field was blank and then just has '$' in it
     if ( jQuery(this).val() == '$' ) {
