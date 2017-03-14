@@ -1,5 +1,4 @@
 // this allows the user to advance by simply hitting the ENTER key
-<script type="text/javascript">
   $(document).keyup(function(e) {
     if(e.keyCode == 13) {
         var actv = $('.prog .active');
