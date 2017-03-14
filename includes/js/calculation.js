@@ -1,4 +1,4 @@
-
+$( document ).ready(function() {
   //sum inputs and display resulting value in table with appropriate ID
   $("input[name='sum']").sum("keyup", "#totalSum");
   $("input[name='sum2']").sum("keyup", "#totalSum2");
@@ -53,3 +53,4 @@
       jQuery(this).val('');
     }
   });
+});

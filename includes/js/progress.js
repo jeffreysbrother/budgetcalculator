@@ -19,36 +19,36 @@ $('.prog a').click(function() {
 
 // in-panel "next" links
 $('.panel a.next').click(function() {
-var actv = $('.prog .active');
-var nex = actv.next();
+  var actv = $('.prog .active');
+  var nex = actv.next();
 
-if (nex.size() > 0) {
-  // click handles changing .active
-  nex.children('a').click();
-} else {
-  // on the last?
-  actv.removeClass('active')
-    .addClass('completed');
+  if (nex.size() > 0) {
+    // click handles changing .active
+    nex.children('a').click();
+  } else {
+    // on the last?
+    actv.removeClass('active')
+      .addClass('completed');
 
-  $('#step7').addClass('active')
-    .siblings('.active')
-    .removeClass('active');
-}
-return false;
+    $('#step7').addClass('active')
+      .siblings('.active')
+      .removeClass('active');
+  }
+  return false;
 });
 
 
 // in-panel back links
 $('.panel a.back').click(function() {
-var actv = $('.prog .active');
-var preev = actv.prev();
+  var actv = $('.prog .active');
+  var preev = actv.prev();
 
-if (actv.size() > 0) {
-  // click handles changing .active
-  preev.children('a').click();
-} else {
-  // on the step 7 : so go back to 6
-  $('.prog li:last a').click();
-}
-return false;
+  if (actv.size() > 0) {
+    // click handles changing .active
+    preev.children('a').click();
+  } else {
+    // on the step 7 : so go back to 6
+    $('.prog li:last a').click();
+  }
+  return false;
 });
