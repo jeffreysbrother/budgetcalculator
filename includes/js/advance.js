@@ -20,4 +20,3 @@
         return false;
     }
   });
-</script>

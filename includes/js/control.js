@@ -45,10 +45,6 @@
     // script for hiding the NO DATA message
     $('input').not(".exclude").keyup(function() {
         if ( $(this).val() ) {
-            // $('text.c3-empty').css('display', 'none');
             $('.image-container').removeClass('demo-chart');
-        }
-        else {
-            // $('text.c3-empty').css('display', 'inherit');
         }
     });
