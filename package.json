@@ -4,7 +4,7 @@
   "description": "quicken budget calculator",
   "main": "index.html",
   "scripts": {
-    "build": "babel --presets es2015 includes/js/modulesrc -d includes/js/moduledist --no-comments"
+    "build": "babel --presets es2015 includes/js/modulesrc -d includes/js/moduledist --no-comment"
   },
   "repository": {
     "type": "git",

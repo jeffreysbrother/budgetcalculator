@@ -2,6 +2,10 @@
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+// change background color of INCOME box when user has negative income
+// also determine which panel (original, congrats, excess) displays at the end
+
+// working, but DOMSubtreeModified is deprecated (according to the documentation)
 $("#subtract").bind("DOMSubtreeModified", function () {
 
   var n = $('#subtract').text();
@@ -14,6 +18,7 @@ $("#subtract").bind("DOMSubtreeModified", function () {
     $('.contain-excess').css("display", "block");
     $('.contain-congrats').css("display", "none");
     $('.contain-original').css("display", "none");
+    //this returns the background to its normal green
   } else if (n === 0) {
     var _$$css;
 
@@ -37,6 +42,7 @@ $("#subtract").bind("DOMSubtreeModified", function () {
   }
 });
 
+// script for hiding the NO DATA message
 $('input').not(".exclude").keyup(function () {
   if ($(undefined).val() !== null) {
     $('.image-container').removeClass('demo-chart');
