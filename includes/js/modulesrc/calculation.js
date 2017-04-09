@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( document ).ready(()=> {
   //sum inputs and display resulting value in table with appropriate ID
   $("input[name='sum']").sum("keyup", "#totalSum");
   $("input[name='sum2']").sum("keyup", "#totalSum2");
@@ -15,7 +15,7 @@ $( document ).ready(function() {
   $("input").subtract({
     'bind':"keyup",
     'selector':"#subtract",
-    'oncalc': function () {
+    'oncalc': ()=> {
       // console.log('oncalc');
       chart.unload({
         ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
@@ -41,7 +41,7 @@ $( document ).ready(function() {
     vMin: "-99999",
     vMax: "99999",
     lZero: 'deny'
-  }).bind('focus', function() {
+  }).bind('focus', ()=> {
     // if field was blank and then just has '$' in it
     if ( jQuery(this).val() == '$' ) {
       // sometimes chrome has issue placing cursor before $ so just wipe it

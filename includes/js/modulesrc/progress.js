@@ -8,19 +8,19 @@ $('.prog a').click(function() {
     $(this).parent().prevAll().addClass('completed');
 
     // also switch panels
-    var tar = $(this).attr('href');
+    let tar = $(this).attr('href');
     $(tar).addClass('active')
       .siblings('.active')
-      .removeClass('active')
+      .removeClass('active');
   }
   return false;
 });
 
 
 // in-panel "next" links
-$('.panel a.next').click(function() {
-  var actv = $('.prog .active');
-  var nex = actv.next();
+$('.panel a.next').click(()=> {
+  let actv = $('.prog .active');
+  let nex = actv.next();
 
   if (nex.size() > 0) {
     // click handles changing .active
@@ -39,9 +39,9 @@ $('.panel a.next').click(function() {
 
 
 // in-panel back links
-$('.panel a.back').click(function() {
-  var actv = $('.prog .active');
-  var preev = actv.prev();
+$('.panel a.back').click(()=> {
+  let actv = $('.prog .active');
+  let preev = actv.prev();
 
   if (actv.size() > 0) {
     // click handles changing .active
