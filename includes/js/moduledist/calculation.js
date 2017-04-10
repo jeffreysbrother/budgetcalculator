@@ -39,9 +39,9 @@ $(document).ready(function () {
     lZero: 'deny'
   }).bind('focus', function () {
     // if field was blank and then just has '$' in it
-    if (jQuery(this).val() == '$') {
+    if ($(this).val() == '$') {
       // sometimes chrome has issue placing cursor before $ so just wipe it
-      jQuery(this).val('');
+      $(this).val('');
     }
   });
 });
