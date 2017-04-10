@@ -7,35 +7,33 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 // working, but DOMSubtreeModified is deprecated (according to the documentation)
 $("#subtract").bind("DOMSubtreeModified", function () {
+  var _greenColor;
 
   var n = $('#subtract').text();
+  var greenColor = (_greenColor = {
+    "background-color": "#a2ca07",
+    "background": "-webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607)"
+  }, _defineProperty(_greenColor, "background", "-o-linear-gradient(0deg, #a2ca07 90%, #86A607)"), _defineProperty(_greenColor, "background", "-moz-linear-gradient(0deg, #a2ca07 90%, #86A607)"), _defineProperty(_greenColor, "background", "linear-gradient(0deg, #a2ca07 90%, #86A607)"), _greenColor);
+  var redColor = {
+    "background-color": "red",
+    "background": "red"
+  };
 
+  // when income is negative, show "excess" message
   if (n < 0) {
-    $('.positive-income').css({
-      "background-color": "red",
-      "background": "red"
-    });
+    $('.positive-income').css(redColor);
     $('.contain-excess').css("display", "block");
     $('.contain-congrats').css("display", "none");
     $('.contain-original').css("display", "none");
-    //this returns the background to its normal green
+    // when income is zero, show default message
   } else if (n == 0) {
-    var _$$css;
-
-    $('.positive-income').css((_$$css = {
-      "background-color": "#a2ca07",
-      "background": "-webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607)"
-    }, _defineProperty(_$$css, "background", "-o-linear-gradient(0deg, #a2ca07 90%, #86A607)"), _defineProperty(_$$css, "background", "-moz-linear-gradient(0deg, #a2ca07 90%, #86A607)"), _defineProperty(_$$css, "background", "linear-gradient(0deg, #a2ca07 90%, #86A607)"), _$$css));
+    $('.positive-income').css(greenColor);
     $('.contain-excess').css("display", "none");
     $('.contain-congrats').css("display", "none");
     $('.contain-original').css("display", "block");
+    // when income is positive, show "congrats" message
   } else {
-    var _$$css2;
-
-    $('.positive-income').css((_$$css2 = {
-      "background-color": "#a2ca07",
-      "background": "-webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607)"
-    }, _defineProperty(_$$css2, "background", "-o-linear-gradient(0deg, #a2ca07 90%, #86A607)"), _defineProperty(_$$css2, "background", "-moz-linear-gradient(0deg, #a2ca07 90%, #86A607)"), _defineProperty(_$$css2, "background", "linear-gradient(0deg, #a2ca07 90%, #86A607)"), _$$css2));
+    $('.positive-income').css(greenColor);
     $('.contain-excess').css("display", "none");
     $('.contain-congrats').css("display", "block");
     $('.contain-original').css("display", "none");
