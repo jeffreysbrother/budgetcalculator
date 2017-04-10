@@ -15,7 +15,7 @@ $( "#subtract" ).bind("DOMSubtreeModified", function() {
   const redColor = {
     "background-color": "red",
     "background": "red"
-  }
+  };
 
   // when income is negative, show "excess" message
   if (n < 0) {
