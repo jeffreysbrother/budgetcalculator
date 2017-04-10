@@ -18,7 +18,13 @@ $( document ).ready(function() {
     'oncalc': function() {
       // console.log('oncalc');
       chart.unload({
-        ids: [ 'housing', 'transportation', 'educational', 'personal', 'savings' ]
+        ids: [
+          'housing',
+          'transportation',
+          'educational',
+          'personal',
+          'savings'
+        ]
       });
       chart.load({
         columns: [
