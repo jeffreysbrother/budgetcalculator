@@ -1,4 +1,3 @@
-//progress JS by Alex and James---------------------------------->
 $('.prog a').click(function() {
   if ( !$(this).parent().hasClass('active') ) {
     $(this).parent().addClass('active')
@@ -8,7 +7,7 @@ $('.prog a').click(function() {
     $(this).parent().prevAll().addClass('completed');
 
     // also switch panels
-    let tar = $(this).attr('href');
+    const tar = $(this).attr('href');
     $(tar).addClass('active')
       .siblings('.active')
       .removeClass('active');
@@ -18,9 +17,9 @@ $('.prog a').click(function() {
 
 
 // in-panel "next" links
-$('.panel a.next').click(()=> {
-  let actv = $('.prog .active');
-  let nex = actv.next();
+$('.panel a.next').click(function() {
+  const actv = $('.prog .active');
+  const nex = actv.next();
 
   if (nex.size() > 0) {
     // click handles changing .active
@@ -39,9 +38,9 @@ $('.panel a.next').click(()=> {
 
 
 // in-panel back links
-$('.panel a.back').click(()=> {
-  let actv = $('.prog .active');
-  let preev = actv.prev();
+$('.panel a.back').click(function() {
+  const actv = $('.prog .active');
+  const preev = actv.prev();
 
   if (actv.size() > 0) {
     // click handles changing .active

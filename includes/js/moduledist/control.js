@@ -19,7 +19,7 @@ $("#subtract").bind("DOMSubtreeModified", function () {
     $('.contain-congrats').css("display", "none");
     $('.contain-original').css("display", "none");
     //this returns the background to its normal green
-  } else if (n === 0) {
+  } else if (n == 0) {
     var _$$css;
 
     $('.positive-income').css((_$$css = {
@@ -44,7 +44,7 @@ $("#subtract").bind("DOMSubtreeModified", function () {
 
 // script for hiding the NO DATA message
 $('input').not(".exclude").keyup(function () {
-  if ($(undefined).val() !== null) {
+  if ($(this).val()) {
     $('.image-container').removeClass('demo-chart');
   }
 });

@@ -2,9 +2,9 @@
 // also determine which panel (original, congrats, excess) displays at the end
 
     // working, but DOMSubtreeModified is deprecated (according to the documentation)
-    $( "#subtract" ).bind("DOMSubtreeModified", ()=> {
+    $( "#subtract" ).bind("DOMSubtreeModified", function() {
 
-      let n = $('#subtract').text();
+      const n = $('#subtract').text();
 
       if (n < 0) {
         $('.positive-income').css({
@@ -15,7 +15,7 @@
         $('.contain-congrats').css("display", "none");
         $('.contain-original').css("display", "none");
         //this returns the background to its normal green
-      } else if (n === 0){
+      } else if (n == 0){
         $('.positive-income').css({
           "background-color": "#a2ca07",
           "background": "-webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607)",
@@ -43,8 +43,8 @@
 
 
     // script for hiding the NO DATA message
-    $('input').not(".exclude").keyup(()=> {
-        if ( $(this).val() !== null ) {
+    $('input').not(".exclude").keyup(function() {
+        if ( $(this).val() ) {
             $('.image-container').removeClass('demo-chart');
         }
     });

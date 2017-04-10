@@ -1,6 +1,5 @@
 'use strict';
 
-//progress JS by Alex and James---------------------------------->
 $('.prog a').click(function () {
   if (!$(this).parent().hasClass('active')) {
     $(this).parent().addClass('active').siblings('.active').removeClass('active');

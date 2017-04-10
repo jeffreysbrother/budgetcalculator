@@ -1,8 +1,8 @@
 // this allows the user to advance by simply hitting the ENTER key
-  $(document).keyup((e)=> {
+  $(document).keyup(function(e) {
     if(e.keyCode == 13) {
-        let actv = $('.prog .active');
-        let nex = actv.next();
+        const actv = $('.prog .active');
+        const nex = actv.next();
 
         if (nex.size() > 0) {
           // click handles changing .active
