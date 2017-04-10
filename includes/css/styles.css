@@ -63,13 +63,6 @@ div.column2 {
   margin-top: 51px;
 }
 
-.last-panel-right {
-  width: 46%;
-  height: 100px;
-  background-color: pink;
-  display: inline-block;
-}
-
 div.last-panel-left h3 {
   color: #666;
   position: relative;
@@ -108,10 +101,10 @@ span.reddish {
 
 div.positive-income {
   background-color: #a2ca07;
-  background: -webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607); /*Safari 5.1-6*/
-  background: -o-linear-gradient(0deg, #a2ca07 90%, #86A607); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(0deg, #a2ca07 90%, #86A607); /*Fx 3.6-15*/
-  background: linear-gradient(0deg, #a2ca07 90%, #86A607); /*Standard*/
+  background: -webkit-linear-gradient( 0deg, #a2ca07 90%, #86A607);
+  background: -o-linear-gradient(0deg, #a2ca07 90%, #86A607);
+  background: -moz-linear-gradient(0deg, #a2ca07 90%, #86A607);
+  background: linear-gradient(0deg, #a2ca07 90%, #86A607);
   border-radius: 9px;
   padding-top: 11px;
   padding-bottom: 11px;
